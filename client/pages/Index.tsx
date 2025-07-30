@@ -401,7 +401,77 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Certifications & Education */}
+      {/* Awards & Honors */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Awards & Honors</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-accent">
+                    <Trophy className="h-5 w-5" />
+                    Corona Warrior Award
+                  </CardTitle>
+                  <CardDescription>Max Life Insurance • October 2021</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Recognized for outstanding contributions during the COVID-19 pandemic and community service efforts.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-accent">
+                    <Trophy className="h-5 w-5" />
+                    Social Work Award
+                  </CardTitle>
+                  <CardDescription>Udupi Sanchalana Karnataka • October 2021</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Honored for significant contributions to social work and community development initiatives.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-accent">
+                    <Trophy className="h-5 w-5" />
+                    Prathiba Puraskar 2019
+                  </CardTitle>
+                  <CardDescription>St Theresa Church Kemmannu • August 2019</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Recognition for exceptional talent and contributions to the community.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-accent">
+                    <Trophy className="h-5 w-5" />
+                    Academic Excellence Award
+                  </CardTitle>
+                  <CardDescription>Mangalore University • BCA Final Year</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Awarded for scoring 80% in Final Year Bachelor of Computer Applications (BCA).
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Education & Certifications */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
@@ -418,12 +488,12 @@ export default function Index() {
                   <div>
                     <h4 className="font-semibold">Master's in Cyber Security</h4>
                     <p className="text-muted-foreground">Coventry University, UK</p>
-                    <p className="text-sm text-muted-foreground">2017 - 2018</p>
+                    <p className="text-sm text-muted-foreground">2022 - 2024</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold">Bachelor's in Computer Engineering</h4>
-                    <p className="text-muted-foreground">University of Mumbai</p>
-                    <p className="text-sm text-muted-foreground">2013 - 2017</p>
+                    <h4 className="font-semibold">Bachelor of Computer Applications (BCA)</h4>
+                    <p className="text-muted-foreground">Mangalore University</p>
+                    <p className="text-sm text-muted-foreground">80% Final Year Score</p>
                   </div>
                 </CardContent>
               </Card>
@@ -431,22 +501,22 @@ export default function Index() {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    <Trophy className="h-5 w-5 text-accent" />
-                    Certifications
+                    <Trophy className="h-5 w-5 text-primary" />
+                    Certifications & Skills
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <h4 className="font-semibold">IBM Maximo Certified Specialist</h4>
-                    <p className="text-muted-foreground">IBM</p>
+                    <h4 className="font-semibold">IBM Maximo 7.6 & MAS 8 Specialist</h4>
+                    <p className="text-muted-foreground">Enterprise Asset Management</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold">Azure DevOps Engineer Expert</h4>
-                    <p className="text-muted-foreground">Microsoft</p>
+                    <h4 className="font-semibold">BIRT Reporting Expert</h4>
+                    <p className="text-muted-foreground">Business Intelligence & Reporting</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold">Certified Ethical Hacker (CEH)</h4>
-                    <p className="text-muted-foreground">EC-Council</p>
+                    <h4 className="font-semibold">Cybersecurity Professional</h4>
+                    <p className="text-muted-foreground">Encryption, Ethical Hacking, Secure Development</p>
                   </div>
                 </CardContent>
               </Card>
