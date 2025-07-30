@@ -123,7 +123,8 @@ export default function Index() {
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Fa8c817ab415e457099238678478bbeaf?format=webp&width=800"
                     alt="Aral Aldrin John D'Souza"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover scale-150"
+                    style={{ objectPosition: 'center 20%' }}
                   />
                 </div>
               </div>
