@@ -54,11 +54,11 @@ export default function Index() {
                 <span className="text-primary">Dsouza</span>
               </h1>
               <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-                Developer • Maximo Specialist • Founder • Content Creator
+                Maximo Developer • Technical Consultant • Founder • Content Creator
               </p>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
-                Software Developer with expertise in IBM Maximo, .NET Core, Azure DevOps, and Cyber Security. 
-                Founder of Coastal Vibes India and passionate content creator.
+                Versatile Maximo Developer with hands-on experience in IBM Maximo 7.6 and MAS 8 (Manage),
+                specializing in integration, automation scripting, BIRT reporting, and system customization.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="bg-primary hover:bg-primary/90">
@@ -102,18 +102,18 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-lg text-muted-foreground mb-6">
-                  I'm a passionate software developer with a unique blend of technical expertise and entrepreneurial spirit. 
-                  My journey spans across multiple countries including India, Kuwait, and Bahrain, giving me a global perspective 
-                  on technology and business.
+                  I'm a versatile Maximo Developer with hands-on experience in IBM Maximo 7.6 and MAS 8 (Manage),
+                  specializing in integration (MIF), automation scripting (Jython/JavaScript), BIRT reporting, and system customization.
+                  My journey spans across India, Kuwait, and Bahrain, contributing to enterprise-level Maximo projects.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
-                  With a Master's in Cyber Security from Coventry University, UK, and deep expertise in IBM Maximo, 
-                  I specialize in creating robust automation solutions and enterprise applications. I'm also the founder 
-                  of Coastal Vibes India, a coastal clothing and lifestyle brand.
+                  Currently working with Bahrain Airport Services as part of the IBM Maximo Application Suite (MAS) project support team.
+                  I focus on secure, scalable, and performance-driven EAM solutions, aligning technology with business needs
+                  while following best practices in system design and cybersecurity.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  When I'm not coding, you'll find me creating content about travel, food, and technology on Instagram and YouTube, 
-                  sharing my experiences and insights with a growing community.
+                  I'm also the founder of Coastal Vibes India, a non-profit digital media platform promoting India's coastal regions.
+                  Always eager to learn, adapt, and collaborate on impactful solutions.
                 </p>
               </div>
               <div className="space-y-4">
@@ -127,11 +127,11 @@ export default function Index() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Building2 className="h-5 w-5 text-primary" />
-                  <span>Founder - Coastal Vibes India</span>
+                  <span>Technical Consultant - Praxis Solutions</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Trophy className="h-5 w-5 text-primary" />
-                  <span>IBM Maximo Specialist</span>
+                  <span>IBM Maximo 7.6 & MAS 8 Specialist</span>
                 </div>
               </div>
             </div>
@@ -153,9 +153,9 @@ export default function Index() {
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "IBM Maximo", ".NET Core", "Azure DevOps", "SQL Server", 
-                      "Web API", "MVC", "Flutter", "TypeScript", "React", 
-                      "Node.js", "Cyber Security", "Cloud Computing"
+                      "IBM Maximo 7.6 & MAS 8", "Microsoft SQL Server", ".NET Framework", "ASP.NET Core",
+                      "ASP.NET MVC", "BIRT Reporting", "Jython/JavaScript", "MIF Integration",
+                      "AngularJS", "Kendo UI", "Azure Cloud", "Cyber Security"
                     ].map((skill) => (
                       <Badge key={skill} variant="secondary" className="bg-ocean-100 text-ocean-800">
                         {skill}
@@ -173,9 +173,9 @@ export default function Index() {
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "Content Creation", "Brand Development", "Social Media", 
-                      "Photography", "Video Editing", "Travel Blogging", 
-                      "Entrepreneurship", "Product Design", "Marketing"
+                      "Content Creation", "Digital Media", "Social Impact",
+                      "Community Building", "Non-profit Management", "Coastal Tourism Promotion",
+                      "Photography", "Video Production", "Social Media Strategy"
                     ].map((skill) => (
                       <Badge key={skill} variant="secondary" className="bg-sand-100 text-sand-800">
                         {skill}
@@ -199,24 +199,25 @@ export default function Index() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Maximo Developer & Consultant</CardTitle>
+                      <CardTitle>Technical Consultant</CardTitle>
                       <CardDescription className="flex items-center gap-2 mt-2">
                         <Building2 className="h-4 w-4" />
-                        Various Enterprise Clients
+                        Praxis Solutions • Bahrain Airport Services
                       </CardDescription>
                     </div>
                     <Badge variant="outline" className="flex items-center gap-1">
                       <Calendar className="h-3 w-3" />
-                      2020 - Present
+                      Aug 2024 - Present
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Developed custom automation scripts and workflows in IBM Maximo</li>
-                    <li>• Built enterprise applications using Maximo App Designer</li>
-                    <li>• Implemented integration solutions with various ERP systems</li>
-                    <li>• Led digital transformation initiatives for asset management</li>
+                    <li>• Working with Bahrain Airport Services on IBM Maximo Application Suite (MAS) project</li>
+                    <li>• Maximo integration, automation scripting, application monitoring, and customization</li>
+                    <li>• BIRT report development and troubleshooting for business intelligence</li>
+                    <li>• MBO (Maximo Business Objects) enhancement for custom business requirements</li>
+                    <li>• End-to-end Maximo configurations: escalations, workflows, relationships, object structures</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -225,24 +226,24 @@ export default function Index() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Founder & CEO</CardTitle>
+                      <CardTitle>Career Break - Master's Pursuit</CardTitle>
                       <CardDescription className="flex items-center gap-2 mt-2">
-                        <Building2 className="h-4 w-4" />
-                        Coastal Vibes India
+                        <GraduationCap className="h-4 w-4" />
+                        Coventry University, UK
                       </CardDescription>
                     </div>
                     <Badge variant="outline" className="flex items-center gap-1">
                       <Calendar className="h-3 w-3" />
-                      2019 - Present
+                      Jun 2022 - Aug 2024
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Built a coastal clothing and lifestyle brand from ground up</li>
-                    <li>• Developed e-commerce platform and digital marketing strategies</li>
-                    <li>• Created content marketing campaigns reaching 10K+ followers</li>
-                    <li>• Managed supply chain and product development processes</li>
+                    <li>• Pursued Master's in Cybersecurity focusing on encryption, ethical hacking, secure development</li>
+                    <li>• Worked as assistant manager at Subway and front house at Stonegate Group</li>
+                    <li>• Gained adaptability and problem-solving skills in diverse industries</li>
+                    <li>• Maintained Coastal Vibes India operations during academic pursuits</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -251,24 +252,52 @@ export default function Index() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle>Software Developer</CardTitle>
+                      <CardTitle>Technical Consultant</CardTitle>
                       <CardDescription className="flex items-center gap-2 mt-2">
                         <Building2 className="h-4 w-4" />
-                        International Projects (Kuwait, Bahrain)
+                        Praxis Solutions • Kuwait
                       </CardDescription>
                     </div>
                     <Badge variant="outline" className="flex items-center gap-1">
                       <Calendar className="h-3 w-3" />
-                      2018 - 2020
+                      Jun 2019 - Apr 2022
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-muted-foreground">
-                    <li>• Developed .NET Core applications for enterprise clients</li>
-                    <li>• Implemented DevOps practices using Azure DevOps</li>
-                    <li>• Built RESTful APIs and microservices architectures</li>
-                    <li>• Collaborated with international teams across different time zones</li>
+                    <li>• Hands-on experience with IBM Maximo 7.5 and 7.6: functional design, module configuration, customization</li>
+                    <li>• Maximo Mobile configuration and Android-based mobile app integration</li>
+                    <li>• Enterprise applications using ASP.NET MVC, jQuery, JavaScript, AngularJS, Kendo UI</li>
+                    <li>• Maximo BIRT reporting and custom report development</li>
+                    <li>• Performance testing with Apache JMeter and Selenium automation</li>
+                    <li>• Agile development and client requirement gathering</li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle>Founder</CardTitle>
+                      <CardDescription className="flex items-center gap-2 mt-2">
+                        <Building2 className="h-4 w-4" />
+                        Coastal Vibes India • Non-profit
+                      </CardDescription>
+                    </div>
+                    <Badge variant="outline" className="flex items-center gap-1">
+                      <Calendar className="h-3 w-3" />
+                      Jun 2020 - Present
+                    </Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li>• Founded non-profit digital media platform promoting coastal region of India</li>
+                    <li>• Supporting community needs and highlighting local talents and initiatives</li>
+                    <li>• Building digital presence with 10K+ Instagram followers</li>
+                    <li>• Content creation focusing on coastal culture, tourism, and community development</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -356,8 +385,8 @@ export default function Index() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Coastal Vibes India</h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              A coastal clothing and lifestyle brand celebrating the laid-back vibes of coastal living. 
-              From comfortable apparel to lifestyle accessories, we bring the essence of coastal culture to your everyday life.
+              A non-profit digital media platform that promotes the coastal region of India, supports community needs,
+              and highlights local talents and initiatives. Celebrating the essence of coastal culture and tourism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -365,7 +394,7 @@ export default function Index() {
                 Visit @coastalvibes.in
               </Button>
               <Button variant="outline" size="lg">
-                Shop Collection
+                Learn More
               </Button>
             </div>
           </div>
