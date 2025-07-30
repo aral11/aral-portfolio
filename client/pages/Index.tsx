@@ -89,11 +89,13 @@ export default function Index() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                <Button size="lg" className="group bg-primary hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4">
-                  <Download className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-                  Download Resume
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <a href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2F4091f037a4d9481680641b7682945e52?alt=media&token=f6cdd397-890f-4672-925c-d50900513382&apiKey=a92c07345b2448db8df3322125c3b3e6" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="group bg-primary hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4">
+                    <Download className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
+                    Download Resume
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
                 <Button variant="outline" size="lg" className="border-2 hover:bg-primary/5 transition-all duration-300 text-lg px-8 py-4">
                   <Mail className="mr-3 h-6 w-6" />
                   Contact Me
@@ -117,10 +119,12 @@ export default function Index() {
             <div className="flex-shrink-0">
               <div className="relative w-96 h-96 lg:w-[28rem] lg:h-[28rem]">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/30 to-accent/30 blur-2xl animate-pulse"></div>
-                <div className="relative w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/20 flex items-center justify-center backdrop-blur-sm shadow-2xl">
-                  <div className="w-[85%] h-[85%] rounded-full bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center text-primary text-8xl lg:text-9xl font-bold shadow-inner">
-                    AD
-                  </div>
+                <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Fa8c817ab415e457099238678478bbeaf?format=webp&width=800"
+                    alt="Aral Aldrin John Dsouza"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -181,8 +185,8 @@ export default function Index() {
                     <Trophy className="h-7 w-7 text-accent" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">IBM Maximo 7.6 & MAS 8 Specialist</h4>
-                    <p className="text-muted-foreground">Enterprise Asset Management Expert</p>
+                    <h4 className="font-semibold text-lg">IBM Maximo 7.6 & MAS 8 Expert</h4>
+                    <p className="text-muted-foreground">Enterprise Asset Management</p>
                   </div>
                 </div>
               </div>
