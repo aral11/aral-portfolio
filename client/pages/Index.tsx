@@ -31,7 +31,7 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="font-bold text-2xl bg-gradient-to-r from-primary to-ocean-600 bg-clip-text text-transparent">
-              Aral Dsouza
+              Aral D'Souza
             </div>
             <div className="hidden md:flex space-x-10">
               <a href="#about" className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group">
@@ -67,7 +67,7 @@ export default function Index() {
                   <span className="text-foreground">Aral Aldrin John</span>
                   <br />
                   <span className="bg-gradient-to-r from-primary via-ocean-600 to-accent bg-clip-text text-transparent">
-                    Dsouza
+                    D'Souza
                   </span>
                 </h1>
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-8">
@@ -122,7 +122,7 @@ export default function Index() {
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Fa8c817ab415e457099238678478bbeaf?format=webp&width=800"
-                    alt="Aral Aldrin John Dsouza"
+                    alt="Aral Aldrin John D'Souza"
                     className="w-full h-full object-cover"
                   />
                 </div>
