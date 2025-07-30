@@ -201,7 +201,7 @@ export default function Index() {
                     <Trophy className="h-7 w-7 text-accent" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">IBM Maximo 7.6 & MAS 8 Expert</h4>
+                    <h4 className="font-semibold text-lg">IBM Maximo 7.6 & MAS 8</h4>
                     <p className="text-muted-foreground">Enterprise Asset Management</p>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
-              <h2 className="text-5xl lg:text-6xl font-bold mb-6">Skills & Expertise</h2>
+              <h2 className="text-5xl lg:text-6xl font-bold mb-6">Skills & Technologies</h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-accent to-primary mx-auto rounded-full"></div>
             </div>
             
@@ -227,7 +227,7 @@ export default function Index() {
                     <div className="w-3 h-12 bg-gradient-to-b from-primary to-ocean-600 rounded-full"></div>
                     <span className="bg-gradient-to-r from-primary to-ocean-600 bg-clip-text text-transparent">Technical Skills</span>
                   </CardTitle>
-                  <CardDescription className="text-lg">Core development and engineering expertise</CardDescription>
+                  <CardDescription className="text-lg">Core development and engineering skills</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-3">
