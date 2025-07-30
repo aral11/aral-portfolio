@@ -102,17 +102,32 @@ export default function Index() {
                 </Button>
               </div>
               
-              <div className="flex gap-6 justify-center lg:justify-start">
-                <a href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a" 
-                   target="_blank" rel="noopener noreferrer"
-                   className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 group shadow-lg hover:shadow-xl">
-                  <Linkedin className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
-                </a>
-                <a href="https://www.instagram.com/coastalvibes.in" 
-                   target="_blank" rel="noopener noreferrer"
-                   className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-accent/50 hover:bg-accent/5 transition-all duration-300 group shadow-lg hover:shadow-xl">
-                  <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-accent transition-colors" />
-                </a>
+              <div className="space-y-4 flex flex-col items-center lg:items-start">
+                <div className="flex gap-6">
+                  <a href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a"
+                     target="_blank" rel="noopener noreferrer"
+                     className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 group shadow-lg hover:shadow-xl">
+                    <Linkedin className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
+                  </a>
+                  <a href="https://www.instagram.com/coastalvibes.in"
+                     target="_blank" rel="noopener noreferrer"
+                     className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-accent/50 hover:bg-accent/5 transition-all duration-300 group shadow-lg hover:shadow-xl">
+                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-accent transition-colors" />
+                  </a>
+                  <a href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
+                     target="_blank" rel="noopener noreferrer"
+                     className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 group shadow-lg hover:shadow-xl">
+                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
+                  </a>
+                </div>
+                <div className="text-center lg:text-left space-y-1">
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium">@coastalvibes.in</span> • Coastal Vibes India
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium">@cheerboyaral</span> • Personal
+                  </p>
+                </div>
               </div>
             </div>
             
