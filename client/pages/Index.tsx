@@ -232,9 +232,9 @@ export default function Index() {
                 <CardContent>
                   <div className="flex flex-wrap gap-3">
                     {[
-                      "IBM Maximo 7.6 & MAS 8", "Microsoft SQL Server", ".NET Framework", "ASP.NET Core", 
-                      "ASP.NET MVC", "BIRT Reporting", "Jython/JavaScript", "MIF Integration", 
-                      "AngularJS", "Kendo UI", "Azure Cloud", "Cyber Security"
+                      "IBM Maximo Development", "Automation Scripting", "Workflow Configuration", "BIRT Report Development",
+                      "Maximo Integration Framework (MIF)", "Database & SQL Skills", "Application Designer & UI Customization", "Functional Knowledge of EAM Modules",
+                      "Maximo Application Suite (MAS 8.x)", "Server & Deployment Environments (WebSphere/Liberty)", "Agile Methodologies & Team Collaboration"
                     ].map((skill) => (
                       <Badge key={skill} variant="secondary" className="bg-ocean-50 text-ocean-700 border border-ocean-200 hover:bg-ocean-100 transition-all duration-300 px-4 py-2 text-sm font-medium hover:scale-105">
                         {skill}
