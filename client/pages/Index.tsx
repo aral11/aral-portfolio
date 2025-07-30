@@ -531,21 +531,35 @@ export default function Index() {
                     <div className="p-3 rounded-full bg-accent/10">
                       <Trophy className="h-8 w-8 text-accent" />
                     </div>
-                    Certifications & Skills
+                    Licenses & Certifications
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent className="space-y-4">
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
-                    <h4 className="font-semibold text-xl text-accent">IBM Maximo 7.6 & MAS 8 Specialist</h4>
-                    <p className="text-muted-foreground text-lg">Enterprise Asset Management</p>
+                    <h4 className="font-semibold text-lg text-accent">Instana by IBM Technical Sales Intermediate</h4>
+                    <p className="text-muted-foreground">IBM • August 2024</p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
-                    <h4 className="font-semibold text-xl text-accent">BIRT Reporting Expert</h4>
-                    <p className="text-muted-foreground text-lg">Business Intelligence & Reporting</p>
+                    <h4 className="font-semibold text-lg text-accent">Student Representative Certificate</h4>
+                    <p className="text-muted-foreground">Coventry University • April 2023</p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
-                    <h4 className="font-semibold text-xl text-accent">Cybersecurity Professional</h4>
-                    <p className="text-muted-foreground text-lg">Encryption, Ethical Hacking, Secure Development</p>
+                    <h4 className="font-semibold text-lg text-accent">Sandwich Artistry</h4>
+                    <p className="text-muted-foreground">Subway EMEA • September 2022</p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
+                    <h4 className="font-semibold text-lg text-accent">Android Training and Certification</h4>
+                    <p className="text-muted-foreground">Udemy Academy • September 2020</p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
+                    <h4 className="font-semibold text-lg text-accent">Developing ASP.NET MVC Web Applications</h4>
+                    <p className="text-muted-foreground">Manipal Institute of Computer Education-MICE • October 2019</p>
+                    <p className="text-sm text-muted-foreground mt-1">Skills: .NET Framework, Microsoft SQL Server, HTML, ASP.NET MVC, jQuery</p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
+                    <h4 className="font-semibold text-lg text-accent">Introduction to Programming Using JavaScript</h4>
+                    <p className="text-muted-foreground">Manipal Institute of Computer Education-MICE • October 2019</p>
+                    <p className="text-sm text-muted-foreground mt-1">Skills: JavaScript</p>
                   </div>
                 </CardContent>
               </Card>
