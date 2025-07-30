@@ -216,7 +216,7 @@ export default function Index() {
                     <li>• Maximo integration, automation scripting, application monitoring, and customization</li>
                     <li>• BIRT report development and troubleshooting for business intelligence</li>
                     <li>• MBO (Maximo Business Objects) enhancement for custom business requirements</li>
-                    <li>• End-to-end Maximo configurations: escalations, workflows, relationships, object structures</li>
+                    <li>��� End-to-end Maximo configurations: escalations, workflows, relationships, object structures</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -305,78 +305,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Featured Projects</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="group hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="flex items-center justify-between">
-                    CoastalConnect
-                    <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </CardTitle>
-                  <CardDescription>E-commerce Platform</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Complete e-commerce solution for Coastal Vibes with inventory management, 
-                    payment integration, and analytics dashboard.
-                  </p>
-                  <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">React</Badge>
-                    <Badge variant="outline" className="text-xs">Node.js</Badge>
-                    <Badge variant="outline" className="text-xs">MongoDB</Badge>
-                  </div>
-                </CardContent>
-              </Card>
 
-              <Card className="group hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="flex items-center justify-between">
-                    Maximo Automation Suite
-                    <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </CardTitle>
-                  <CardDescription>Enterprise Solution</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Custom automation scripts and workflows for IBM Maximo, reducing 
-                    manual processes by 70% for enterprise clients.
-                  </p>
-                  <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">IBM Maximo</Badge>
-                    <Badge variant="outline" className="text-xs">JavaScript</Badge>
-                    <Badge variant="outline" className="text-xs">SQL</Badge>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="group hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="flex items-center justify-between">
-                    Travel Content Hub
-                    <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </CardTitle>
-                  <CardDescription>Content Platform</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Content management platform for travel and food blogging with 
-                    integrated social media scheduling and analytics.
-                  </p>
-                  <div className="flex flex-wrap gap-1">
-                    <Badge variant="outline" className="text-xs">Flutter</Badge>
-                    <Badge variant="outline" className="text-xs">.NET Core</Badge>
-                    <Badge variant="outline" className="text-xs">Azure</Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Coastal Vibes Section */}
       <section className="py-20 bg-gradient-to-r from-ocean-50 to-sand-50">
