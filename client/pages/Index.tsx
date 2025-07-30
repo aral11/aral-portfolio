@@ -96,10 +96,12 @@ export default function Index() {
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </a>
-                <Button variant="outline" size="lg" className="border-2 hover:bg-primary/5 transition-all duration-300 text-lg px-8 py-4">
-                  <Mail className="mr-3 h-6 w-6" />
-                  Contact Me
-                </Button>
+                <a href="#contact">
+                  <Button variant="outline" size="lg" className="border-2 hover:bg-primary/5 transition-all duration-300 text-lg px-8 py-4">
+                    <Mail className="mr-3 h-6 w-6" />
+                    Contact Me
+                  </Button>
+                </a>
               </div>
               
               <div className="space-y-4 flex flex-col items-center lg:items-start">
@@ -417,14 +419,18 @@ export default function Index() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button size="lg" className="group bg-accent text-accent-foreground hover:bg-accent/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4">
-                <Instagram className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-                Visit @coastalvibes.in
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button variant="outline" size="lg" className="border-2 hover:bg-accent/5 transition-all duration-300 text-lg px-8 py-4">
-                Learn More
-              </Button>
+              <a href="https://www.instagram.com/coastalvibes.in" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="group bg-accent text-accent-foreground hover:bg-accent/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4">
+                  <Instagram className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
+                  Visit @coastalvibes.in
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+              <a href="#about">
+                <Button variant="outline" size="lg" className="border-2 hover:bg-accent/5 transition-all duration-300 text-lg px-8 py-4">
+                  Learn More
+                </Button>
+              </a>
             </div>
           </div>
         </div>
