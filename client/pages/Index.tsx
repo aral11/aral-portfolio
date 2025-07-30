@@ -34,10 +34,9 @@ export default function Index() {
           <div className="flex justify-between items-center h-16">
             <div className="font-bold text-xl text-primary">Aral Dsouza</div>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About</a>
-              <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors">Experience</a>
-              <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">Projects</a>
-              <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a>
+              <a href="#about" className="text-muted-foreground hover:text-primary transition-colors font-medium">About</a>
+              <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors font-medium">Experience</a>
+              <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors font-medium">Contact</a>
             </div>
           </div>
         </div>
