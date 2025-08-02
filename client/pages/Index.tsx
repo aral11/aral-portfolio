@@ -603,15 +603,7 @@ export default function Index() {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="#about">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-2 hover:bg-accent/5 transition-all duration-300 text-lg px-8 py-4"
-                >
-                  Learn More
-                </Button>
-              </a>
+
             </div>
 
             <div className="mt-6">
