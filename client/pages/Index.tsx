@@ -149,14 +149,6 @@ export default function Index() {
                     <Linkedin className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
                   </a>
                   <a
-                    href="https://www.instagram.com/coastalvibes.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-accent/50 hover:bg-accent/5 transition-all duration-300 group shadow-lg hover:shadow-xl"
-                  >
-                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-accent transition-colors" />
-                  </a>
-                  <a
                     href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -165,14 +157,9 @@ export default function Index() {
                     <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
                   </a>
                 </div>
-                <div className="text-center lg:text-left space-y-1">
+                <div className="text-center lg:text-left">
                   <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">@coastalvibes.in</span> •
-                    Coastal Vibes India
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">@cheerboyaral</span> •
-                    Personal
+                    <span className="font-medium">@cheerboyaral</span> • Personal
                   </p>
                 </div>
               </div>
@@ -906,12 +893,12 @@ export default function Index() {
                       <Instagram className="h-6 w-6 text-accent" />
                     </div>
                     <a
-                      href="https://www.instagram.com/coastalvibes.in"
+                      href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-accent hover:underline text-lg"
                     >
-                      @coastalvibes.in
+                      @cheerboyaral
                     </a>
                   </div>
                 </div>
