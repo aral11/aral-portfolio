@@ -116,8 +116,7 @@ export default function Index() {
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
                 <a
                   href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2F4091f037a4d9481680641b7682945e52?alt=media&token=f6cdd397-890f-4672-925c-d50900513382&apiKey=a92c07345b2448db8df3322125c3b3e6"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  download="Aral_D'Souza_Resume.pdf"
                 >
                   <Button
                     size="lg"
@@ -125,7 +124,6 @@ export default function Index() {
                   >
                     <Download className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
                     Download Resume
-                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </a>
                 <a href="#contact">
