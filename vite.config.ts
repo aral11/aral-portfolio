@@ -5,7 +5,7 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: process.env.VITE_BASE_URL || "/",
+  base: process.env.NODE_ENV === 'production' ? '/aral-portfolio/' : '/',
   server: {
     host: "::",
     port: 8080,
