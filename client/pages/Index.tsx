@@ -562,9 +562,7 @@ export default function Index() {
                       • Supporting community needs and highlighting local
                       talents and initiatives
                     </li>
-                    <li>
-                      • Building digital presence with 10K+ Instagram followers
-                    </li>
+
                     <li>
                       • Content creation focusing on coastal culture, tourism,
                       and community development
