@@ -964,16 +964,7 @@ export default function Index() {
                   <form
                     onSubmit={handleContactSubmit}
                     className="space-y-6"
-                    name="contact"
-                    method="POST"
-                    data-netlify="true"
-                    netlify-honeypot="bot-field"
                   >
-                    {/* Netlify form fields */}
-                    <input type="hidden" name="form-name" value="contact" />
-                    <div className="hidden">
-                      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                    </div>
 
                     <div className="grid grid-cols-2 gap-4">
                       <Input
