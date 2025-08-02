@@ -624,6 +624,23 @@ export default function Index() {
                 </Button>
               </a>
             </div>
+
+            <div className="mt-6">
+              <a
+                href="https://linktr.ee/coastalvibes.in?utm_source=linktree_profile_share&ltsid=9e9b7243-eccd-4c32-8194-b11dcc20e1c7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  className="bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 transition-all duration-300 text-lg px-8 py-4"
+                >
+                  <ArrowRight className="mr-3 h-6 w-6" />
+                  View All Links
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
