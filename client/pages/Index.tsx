@@ -21,7 +21,10 @@ import {
   Trophy,
   Send,
   ArrowRight,
+  CheckCircle,
+  AlertCircle,
 } from "lucide-react";
+import { useState } from "react";
 
 export default function Index() {
   const handleContactSubmit = (e: React.FormEvent) => {
