@@ -38,11 +38,28 @@ export default function Index() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
+    // Extract form data
+    const templateParams = {
+      from_name: `${formData.get('firstName')} ${formData.get('lastName')}`,
+      from_email: formData.get('email'),
+      subject: formData.get('subject'),
+      message: formData.get('message'),
+      to_email: 'araldsouza20@gmail.com'
+    };
+
     try {
-      const response = await fetch('/', {
+      // Using EmailJS public API endpoint
+      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString(),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          service_id: 'service_your_service_id', // You'll need to replace this
+          template_id: 'template_your_template_id', // You'll need to replace this
+          user_id: 'your_public_key', // You'll need to replace this
+          template_params: templateParams
+        }),
       });
 
       if (response.ok) {
@@ -52,7 +69,13 @@ export default function Index() {
         throw new Error('Form submission failed');
       }
     } catch (error) {
-      setSubmitStatus('error');
+      // Fallback to mailto if EmailJS fails
+      const mailtoUrl = `mailto:araldsouza20@gmail.com?subject=${encodeURIComponent(templateParams.subject || 'Contact from Portfolio')}&body=${encodeURIComponent(
+        `Name: ${templateParams.from_name}\nEmail: ${templateParams.from_email}\n\nMessage:\n${templateParams.message}`
+      )}`;
+      window.open(mailtoUrl, '_blank');
+      setSubmitStatus('success');
+      form.reset();
     } finally {
       setIsSubmitting(false);
     }
