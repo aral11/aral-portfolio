@@ -55,9 +55,9 @@ export default function Index() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          service_id: 'service_your_service_id', // You'll need to replace this
-          template_id: 'template_your_template_id', // You'll need to replace this
-          user_id: 'your_public_key', // You'll need to replace this
+          service_id: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          template_id: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          user_id: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
           template_params: templateParams
         }),
       });
@@ -562,7 +562,7 @@ export default function Index() {
                       • Maximo BIRT reporting and custom report development
                     </li>
                     <li>
-                      �� Performance testing with Apache JMeter and Selenium
+                      • Performance testing with Apache JMeter and Selenium
                       automation
                     </li>
                     <li>
