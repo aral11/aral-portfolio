@@ -306,7 +306,7 @@ export default function Index() {
                       "Application Designer & UI Customization",
                       "Functional Knowledge of EAM Modules",
                       "Maximo Application Suite (MAS 8.x)",
-                      "Server & Deployment Environments (WebSphere/Liberty)",
+                      "Knowledge of Server & Deployment Environments",
                       "Agile Methodologies & Team Collaboration",
                     ].map((skill) => (
                       <Badge
