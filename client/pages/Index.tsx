@@ -938,39 +938,91 @@ export default function Index() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form onSubmit={handleContactSubmit} className="space-y-6">
+                  <form
+                    onSubmit={handleContactSubmit}
+                    className="space-y-6"
+                    name="contact"
+                    method="POST"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                  >
+                    {/* Netlify form fields */}
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div className="hidden">
+                      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </div>
+
                     <div className="grid grid-cols-2 gap-4">
                       <Input
+                        name="firstName"
                         placeholder="First Name"
                         required
                         className="h-12 text-base"
+                        disabled={isSubmitting}
                       />
                       <Input
+                        name="lastName"
                         placeholder="Last Name"
                         required
                         className="h-12 text-base"
+                        disabled={isSubmitting}
                       />
                     </div>
                     <Input
+                      name="email"
                       type="email"
                       placeholder="Email Address"
                       required
                       className="h-12 text-base"
+                      disabled={isSubmitting}
                     />
                     <Input
+                      name="subject"
                       placeholder="Subject"
                       required
                       className="h-12 text-base"
+                      disabled={isSubmitting}
                     />
                     <Textarea
+                      name="message"
                       placeholder="Your Message"
                       rows={6}
                       required
                       className="text-base"
+                      disabled={isSubmitting}
                     />
-                    <Button type="submit" className="w-full h-12 text-lg group">
-                      <Send className="mr-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                      Send Message
+
+                    {/* Status Messages */}
+                    {submitStatus === 'success' && (
+                      <div className="flex items-center gap-2 p-4 bg-green-50 border border-green-200 rounded-lg text-green-700">
+                        <CheckCircle className="h-5 w-5" />
+                        <span>Thank you! Your message has been sent successfully. I'll get back to you soon!</span>
+                      </div>
+                    )}
+
+                    {submitStatus === 'error' && (
+                      <div className="flex items-center gap-2 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
+                        <AlertCircle className="h-5 w-5" />
+                        <span>Sorry, there was an error sending your message. Please try again or email me directly.</span>
+                      </div>
+                    )}
+
+                    <Button
+                      type="submit"
+                      className="w-full h-12 text-lg group"
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? (
+                        <>
+                          <div className="mr-2 h-5 w-5 animate-spin rounded-full border-2 border-background border-t-transparent" />
+                          Sending...
+                        </>
+                      ) : (
+                        <>
+                          <Send className="mr-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                          Send Message
+                        </>
+                      )}
                     </Button>
                   </form>
                 </CardContent>
