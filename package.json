@@ -17,7 +17,7 @@
     "build:client": "vite build",
     "build:local": "vite build --mode=development",
     "build:server": "vite build --config vite.config.server.ts",
-    "build:gh-pages": "vite build --mode=production --base=/aral-portfolio/",
+    "build:gh-pages": "GITHUB_PAGES=true vite build",
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
