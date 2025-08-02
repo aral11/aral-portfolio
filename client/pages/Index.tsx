@@ -108,9 +108,15 @@ export default function Index() {
               </div>
 
               <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-                Versatile Maximo Developer with hands-on experience in IBM
-                Maximo 7.6 and MAS 8, specializing in integration, automation
-                scripting, BIRT reporting, and system customization.
+                Versatile Maximo Developer with hands-on experience in IBM Maximo 7.6 and MAS 8 (Manage),
+                specializing in integration (MIF), automation scripting (Jython/JavaScript), BIRT reporting,
+                and system customization. Currently contributing to enterprise-level Maximo projects with a
+                strong focus on secure, scalable, and performance-driven EAM solutions. I enjoy aligning
+                technology with business needs while following best practices in system design and cybersecurity.
+                Always eager to learn, adapt, and collaborate on impactful solutions.
+              </p>
+              <p className="text-xl text-primary font-semibold mt-4">
+                Let's connect and grow together!
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
