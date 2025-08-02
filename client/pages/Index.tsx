@@ -562,7 +562,7 @@ export default function Index() {
                       • Maximo BIRT reporting and custom report development
                     </li>
                     <li>
-                      • Performance testing with Apache JMeter and Selenium
+                      �� Performance testing with Apache JMeter and Selenium
                       automation
                     </li>
                     <li>
@@ -1017,7 +1017,7 @@ export default function Index() {
                     {submitStatus === 'error' && (
                       <div className="flex items-center gap-2 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
                         <AlertCircle className="h-5 w-5" />
-                        <span>Sorry, there was an error sending your message. Please try again or email me directly.</span>
+                        <span>Sorry, there was an error sending your message. Your email client should open as a fallback.</span>
                       </div>
                     )}
 
