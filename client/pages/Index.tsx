@@ -28,53 +28,58 @@ import { useState } from "react";
 
 export default function Index() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
 
   const handleContactSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setSubmitStatus('idle');
+    setSubmitStatus("idle");
 
     const form = e.currentTarget;
     const formData = new FormData(form);
 
     // Extract form data
     const templateParams = {
-      from_name: `${formData.get('firstName')} ${formData.get('lastName')}`,
-      from_email: formData.get('email'),
-      subject: formData.get('subject'),
-      message: formData.get('message'),
-      to_email: 'araldsouza20@gmail.com'
+      from_name: `${formData.get("firstName")} ${formData.get("lastName")}`,
+      from_email: formData.get("email"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
+      to_email: "araldsouza20@gmail.com",
     };
 
     try {
       // Using EmailJS public API endpoint
-      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+      const response = await fetch(
+        "https://api.emailjs.com/api/v1.0/email/send",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            service_id: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            template_id: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+            user_id: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+            template_params: templateParams,
+          }),
         },
-        body: JSON.stringify({
-          service_id: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-          template_id: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-          user_id: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-          template_params: templateParams
-        }),
-      });
+      );
 
       if (response.ok) {
-        setSubmitStatus('success');
+        setSubmitStatus("success");
         form.reset();
       } else {
-        throw new Error('Form submission failed');
+        throw new Error("Form submission failed");
       }
     } catch (error) {
       // Fallback to mailto if EmailJS fails
-      const mailtoUrl = `mailto:araldsouza20@gmail.com?subject=${encodeURIComponent(templateParams.subject || 'Contact from Portfolio')}&body=${encodeURIComponent(
-        `Name: ${templateParams.from_name}\nEmail: ${templateParams.from_email}\n\nMessage:\n${templateParams.message}`
+      const mailtoUrl = `mailto:araldsouza20@gmail.com?subject=${encodeURIComponent(templateParams.subject || "Contact from Portfolio")}&body=${encodeURIComponent(
+        `Name: ${templateParams.from_name}\nEmail: ${templateParams.from_email}\n\nMessage:\n${templateParams.message}`,
       )}`;
-      window.open(mailtoUrl, '_blank');
-      setSubmitStatus('success');
+      window.open(mailtoUrl, "_blank");
+      setSubmitStatus("success");
       form.reset();
     } finally {
       setIsSubmitting(false);
@@ -159,12 +164,15 @@ export default function Index() {
               </div>
 
               <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-                Versatile Maximo Developer with hands-on experience in IBM Maximo 7.6 and MAS 8 (Manage),
-                specializing in integration (MIF), automation scripting (Jython/JavaScript), BIRT reporting,
-                and system customization. Currently contributing to enterprise-level Maximo projects with a
-                strong focus on secure, scalable, and performance-driven EAM solutions. I enjoy aligning
-                technology with business needs while following best practices in system design and cybersecurity.
-                Always eager to learn, adapt, and collaborate on impactful solutions.
+                Versatile Maximo Developer with hands-on experience in IBM
+                Maximo 7.6 and MAS 8 (Manage), specializing in integration
+                (MIF), automation scripting (Jython/JavaScript), BIRT reporting,
+                and system customization. Currently contributing to
+                enterprise-level Maximo projects with a strong focus on secure,
+                scalable, and performance-driven EAM solutions. I enjoy aligning
+                technology with business needs while following best practices in
+                system design and cybersecurity. Always eager to learn, adapt,
+                and collaborate on impactful solutions.
               </p>
               <p className="text-xl text-primary font-semibold mt-4">
                 Let's connect and grow together!
@@ -216,7 +224,8 @@ export default function Index() {
                 </div>
                 <div className="text-center lg:text-left">
                   <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">@cheerboyaral</span> • Personal
+                    <span className="font-medium">@cheerboyaral</span> •
+                    Personal
                   </p>
                 </div>
               </div>
@@ -654,7 +663,6 @@ export default function Index() {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-
             </div>
 
             <div className="mt-6">
@@ -961,11 +969,7 @@ export default function Index() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form
-                    onSubmit={handleContactSubmit}
-                    className="space-y-6"
-                  >
-
+                  <form onSubmit={handleContactSubmit} className="space-y-6">
                     <div className="grid grid-cols-2 gap-4">
                       <Input
                         name="firstName"
@@ -1007,17 +1011,23 @@ export default function Index() {
                     />
 
                     {/* Status Messages */}
-                    {submitStatus === 'success' && (
+                    {submitStatus === "success" && (
                       <div className="flex items-center gap-2 p-4 bg-green-50 border border-green-200 rounded-lg text-green-700">
                         <CheckCircle className="h-5 w-5" />
-                        <span>Thank you! Your message has been sent successfully. I'll get back to you soon!</span>
+                        <span>
+                          Thank you! Your message has been sent successfully.
+                          I'll get back to you soon!
+                        </span>
                       </div>
                     )}
 
-                    {submitStatus === 'error' && (
+                    {submitStatus === "error" && (
                       <div className="flex items-center gap-2 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
                         <AlertCircle className="h-5 w-5" />
-                        <span>Sorry, there was an error sending your message. Your email client should open as a fallback.</span>
+                        <span>
+                          Sorry, there was an error sending your message. Your
+                          email client should open as a fallback.
+                        </span>
                       </div>
                     )}
 

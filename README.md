@@ -28,10 +28,12 @@ Visit the live portfolio: [https://aral11.github.io/aral-portfolio](https://aral
 To enable the contact form functionality:
 
 ### 1. Create EmailJS Account
+
 1. Go to [EmailJS.com](https://www.emailjs.com/)
 2. Sign up for a free account
 
 ### 2. Set up Email Service
+
 1. Go to **Email Services** in your EmailJS dashboard
 2. Click **Add New Service**
 3. Choose your email provider (Gmail recommended)
@@ -39,19 +41,14 @@ To enable the contact form functionality:
 5. Note your **Service ID**
 
 ### 3. Create Email Template
+
 1. Go to **Email Templates**
 2. Click **Create New Template**
 3. Use this template structure:
 
 ```html
-From: {{from_name}} ({{from_email}})
-Subject: {{subject}}
-
-Message:
-{{message}}
-
----
-This message was sent from your portfolio contact form.
+From: {{from_name}} ({{from_email}}) Subject: {{subject}} Message: {{message}}
+--- This message was sent from your portfolio contact form.
 ```
 
 4. Set these variables in the template:
@@ -62,10 +59,12 @@ This message was sent from your portfolio contact form.
 5. Note your **Template ID**
 
 ### 4. Get Public Key
+
 1. Go to **Account** → **General**
 2. Copy your **Public Key**
 
 ### 5. Configure Environment Variables
+
 1. Copy `.env.example` to `.env.local`
 2. Replace the placeholder values:
 
@@ -78,10 +77,12 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
 ## 🚀 GitHub Pages Deployment
 
 ### Prerequisites
+
 - GitHub account
 - Git installed on your computer
 
 ### Step 1: Create GitHub Repository
+
 1. Go to [GitHub.com](https://github.com)
 2. Click **New Repository**
 3. Name it: `aral-portfolio`
@@ -90,19 +91,22 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
 6. Click **Create Repository**
 
 ### Step 2: Add Environment Variables to GitHub
+
 1. Go to your repository on GitHub
 2. Click **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret** for each:
    - `VITE_EMAILJS_SERVICE_ID` = your service ID
-   - `VITE_EMAILJS_TEMPLATE_ID` = your template ID  
+   - `VITE_EMAILJS_TEMPLATE_ID` = your template ID
    - `VITE_EMAILJS_PUBLIC_KEY` = your public key
 
 ### Step 3: Enable GitHub Pages
+
 1. Go to **Settings** → **Pages**
 2. Under **Source**, select **GitHub Actions**
 3. Click **Save**
 
 ### Step 4: Deploy Your Code
+
 Run these commands in your project folder:
 
 ```bash
@@ -123,6 +127,7 @@ git push -u origin main
 ```
 
 ### Step 5: Automatic Deployment
+
 - GitHub Actions will automatically build and deploy your site
 - Check the **Actions** tab to see deployment progress
 - Your site will be live at: `https://aral11.github.io/aral-portfolio`
@@ -130,6 +135,7 @@ git push -u origin main
 ## 🔧 Local Development
 
 ### Installation
+
 ```bash
 # Install dependencies
 npm install
@@ -143,6 +149,7 @@ npm run dev
 ```
 
 ### Available Scripts
+
 ```bash
 npm run dev          # Start development server
 npm run build        # Build for production
@@ -167,12 +174,15 @@ npm test            # Run tests
 ## 🎨 Customization
 
 ### Colors
+
 Edit `client/global.css` and `tailwind.config.ts` to customize the coastal color theme.
 
 ### Content
+
 Update `client/pages/Index.tsx` to modify portfolio content.
 
 ### Resume
+
 Replace the resume link in the download button with your actual resume URL.
 
 ## 📞 Contact
