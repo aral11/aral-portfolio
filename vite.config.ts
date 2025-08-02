@@ -4,8 +4,8 @@ import path from "path";
 import { createServer } from "./server";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/aral-portfolio/' : '/',
+export default defineConfig(({ command, mode }) => ({
+  base: process.env.GITHUB_PAGES === 'true' ? '/aral-portfolio/' : '/',
   server: {
     host: "::",
     port: 8080,
