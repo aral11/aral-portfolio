@@ -144,24 +144,34 @@ export default function Index() {
 
                 <div className="max-w-5xl space-y-6">
                   <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                    Meet <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span> — a
-                    <span className="text-primary font-medium"> 💻 Maximo Developer</span>,
-                    <span className="text-ocean-600 font-medium"> 🎯 Technical Consultant</span>,
-                    <span className="text-green-600 font-medium"> 🚀 Founder</span>,
-                    <span className="text-accent font-medium"> 🎨 Digital Creator by passion</span>,
-                    <span className="text-sand-600 font-medium"> 🎤 Anchor by education</span>, and
-                    <span className="text-red-600 font-medium"> ❤️ Philanthropist</span> at heart.
-                    A <span className="text-muted-foreground"> ♍ Virgo 🍁</span> and
-                    <span className="text-ocean-700 font-medium"> 💻 Techie & MCA/MSc Grad 🎓</span>,
-                    I'm a skilled Maximo Consultant with over 5 years of focused experience in IBM Maximo and MAS 8 implementations,
-                    support, and customizations. My expertise spans Maximo Integration Framework (MIF), automation scripting
-                    (Jython/JavaScript), data migration, and BIRT reporting, having delivered solutions across multiple industry
-                    sectors while ensuring alignment with enterprise asset management (EAM) practices. With a strong
-                    technical-functional understanding of Maximo architecture and modules, I'm always eager to learn, adapt,
-                    and collaborate on impactful solutions. Whether you're looking to connect through my personal handle
-                    <span className="text-primary font-medium"> @cheerboyaral</span>, explore coastal vibes as
-                    <span className="text-ocean-600 font-medium"> @coastalvibes.in founder</span>, or find motivation via
-                    <span className="text-sand-600 font-medium"> @upliftwitharal</span> — let's connect and grow together!
+                    <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span>,
+                    <span className="text-primary font-medium">Maximo Developer</span>,
+                    <span className="text-ocean-600 font-medium">Technical Consultant</span>,
+                    <span className="text-green-600 font-medium">Founder</span>,
+                    <span className="text-accent font-medium">Digital Creator</span>,
+                    <span className="text-sand-600 font-medium">Anchor</span>, and
+                    <span className="text-red-600 font-medium">Philanthropist</span>,
+                    is a skilled Maximo Consultant with over 5 years of focused experience in IBM Maximo and MAS 8 implementations,
+                    support, and customizations. He has proven expertise in Maximo Integration Framework (MIF), automation scripting
+                    (Jython/JavaScript), data migration, and BIRT reporting, delivering solutions across multiple industry sectors
+                    while ensuring alignment with enterprise asset management (EAM) practices. With a strong technical-functional
+                    understanding of Maximo architecture and modules, Aral is always eager to learn, adapt, and collaborate on
+                    impactful solutions. <span className="text-primary font-semibold">Let's connect and grow together!</span>
+                    Reach out via <span className="text-primary font-medium">@cheerboyaral (Personal)</span>.
+                  </p>
+
+                  <div className="space-y-2 text-lg text-muted-foreground">
+                    <p><strong className="text-foreground">Other contacts:</strong></p>
+                    <p><span className="text-ocean-600 font-medium">@coastalvibes.in</span> • Founder</p>
+                    <p><span className="text-sand-600 font-medium">@upliftwitharal</span> • Motivation</p>
+                  </div>
+
+                  <p className="text-lg text-muted-foreground leading-relaxed italic">
+                    Aral Aldrin John D'Souza is a <span className="text-accent font-medium">digital creator by passion</span>,
+                    <span className="text-sand-600 font-medium">anchor by interest</span>,
+                    <span className="text-red-600 font-medium">philanthropist by heart</span>, and
+                    <span className="text-green-600 font-medium">founder by commitment</span>,
+                    with a strong technical background and a drive to create meaningful impact.
                   </p>
                 </div>
               </div>
