@@ -440,7 +440,7 @@ export default function Index() {
                       </p>
                     </div>
                     <Badge className="bg-primary/10 text-primary border-primary/20 w-fit mt-2 lg:mt-0">
-                      Oct 2024 - Present
+                      Aug 2024 - Present
                     </Badge>
                   </div>
                   <ul className="space-y-2 text-muted-foreground">
