@@ -23,6 +23,8 @@ import {
   ArrowRight,
   CheckCircle,
   AlertCircle,
+  Menu,
+  X,
 } from "lucide-react";
 import { useState } from "react";
 
