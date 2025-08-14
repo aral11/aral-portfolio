@@ -294,7 +294,7 @@ export default function Index() {
 
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center space-y-6">
-            <div className="space-y-6">
+            <div className="space-y-4">
               <div className="flex items-center justify-center gap-3 text-2xl font-bold">
                 <span className="text-primary">@cheerboyaral</span>
                 <span className="text-muted-foreground">•</span>
@@ -745,7 +745,7 @@ export default function Index() {
                       coastal region of India
                     </li>
                     <li>
-                      • Supporting community needs and highlighting local
+                      �� Supporting community needs and highlighting local
                       talents and initiatives
                     </li>
 
