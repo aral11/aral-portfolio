@@ -302,22 +302,22 @@ export default function Index() {
               </div>
 
               <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-primary/15 to-primary/25 text-primary border-primary/40 hover:bg-primary/25 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-primary/20 text-primary border-2 border-primary/50 hover:bg-primary/30 shadow-md">
                   🎨 Digital Creator
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-accent/15 to-accent/25 text-accent border-accent/40 hover:bg-accent/25 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-accent/20 text-accent border-2 border-accent/50 hover:bg-accent/30 shadow-md">
                   ♍ Virgo 🍁
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-ocean-100 to-ocean-200 text-ocean-800 border-ocean-400 hover:bg-ocean-250 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-ocean-150 text-ocean-900 border-2 border-ocean-500 hover:bg-ocean-200 shadow-md">
                   💻 Techie & MCA/MSc Grad 🎓
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-sand-100 to-sand-200 text-sand-800 border-sand-400 hover:bg-sand-250 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-sand-150 text-sand-900 border-2 border-sand-500 hover:bg-sand-200 shadow-md">
                   🎤 Anchor
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-primary/15 to-primary/25 text-primary border-primary/40 hover:bg-primary/25 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-red-100 text-red-800 border-2 border-red-400 hover:bg-red-150 shadow-md">
                   ❤️ Philanthropist
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-accent/15 to-accent/25 text-accent border-accent/40 hover:bg-accent/25 shadow-sm">
+                <Badge className="px-4 py-2 text-sm font-bold bg-green-100 text-green-800 border-2 border-green-400 hover:bg-green-150 shadow-md">
                   🚀 Founder
                 </Badge>
               </div>
