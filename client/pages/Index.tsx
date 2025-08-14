@@ -92,33 +92,92 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/40">
+      <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/40 shadow-sm">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="font-bold text-2xl bg-gradient-to-r from-primary to-ocean-600 bg-clip-text text-transparent">
+            {/* Logo */}
+            <div className="font-bold text-2xl bg-gradient-to-r from-primary via-ocean-600 to-accent bg-clip-text text-transparent">
               Aral D'Souza
             </div>
-            <div className="hidden md:flex space-x-10">
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
               <a
                 href="#about"
-                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group"
+                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group py-2"
               >
                 About
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent transition-all duration-300 group-hover:w-full rounded-full"></div>
               </a>
               <a
                 href="#experience"
-                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group"
+                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group py-2"
               >
                 Experience
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent transition-all duration-300 group-hover:w-full rounded-full"></div>
+              </a>
+              <a
+                href="#skills"
+                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group py-2"
+              >
+                Skills
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-accent transition-all duration-300 group-hover:w-full rounded-full"></div>
               </a>
               <a
                 href="#contact"
-                className="text-muted-foreground hover:text-primary transition-all duration-300 font-medium relative group"
+                className="bg-primary/10 text-primary hover:bg-primary hover:text-white px-6 py-2 rounded-full transition-all duration-300 font-medium shadow-md hover:shadow-lg"
               >
                 Contact
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></div>
+              </a>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden p-2 rounded-lg hover:bg-muted/50 transition-colors"
+            >
+              {isMobileMenuOpen ? (
+                <X className="h-6 w-6 text-muted-foreground" />
+              ) : (
+                <Menu className="h-6 w-6 text-muted-foreground" />
+              )}
+            </button>
+          </div>
+
+          {/* Mobile Navigation */}
+          <div className={`md:hidden transition-all duration-300 ease-in-out ${
+            isMobileMenuOpen
+              ? 'max-h-96 opacity-100 pb-6'
+              : 'max-h-0 opacity-0 overflow-hidden'
+          }`}>
+            <div className="flex flex-col space-y-4 pt-4 border-t border-border/40">
+              <a
+                href="#about"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-primary transition-colors font-medium py-2 px-4 rounded-lg hover:bg-muted/50"
+              >
+                About
+              </a>
+              <a
+                href="#experience"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-primary transition-colors font-medium py-2 px-4 rounded-lg hover:bg-muted/50"
+              >
+                Experience
+              </a>
+              <a
+                href="#skills"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-muted-foreground hover:text-primary transition-colors font-medium py-2 px-4 rounded-lg hover:bg-muted/50"
+              >
+                Skills
+              </a>
+              <a
+                href="#contact"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="bg-primary text-white px-6 py-3 rounded-lg transition-all duration-300 font-medium text-center shadow-md hover:shadow-lg"
+              >
+                Contact
               </a>
             </div>
           </div>
