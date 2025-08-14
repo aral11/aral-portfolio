@@ -296,7 +296,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* About Me Section */}
+      {/* About My Profession Section */}
       <section
         id="about"
         className="py-32 bg-gradient-to-b from-background to-muted/20"
@@ -304,7 +304,7 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20">
-              <h2 className="text-5xl lg:text-6xl font-bold mb-6">About Me</h2>
+              <h2 className="text-5xl lg:text-6xl font-bold mb-6">About my profession</h2>
               <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-accent to-primary mx-auto rounded-full"></div>
             </div>
 
