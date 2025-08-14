@@ -287,7 +287,7 @@ export default function Index() {
       </section>
 
       {/* Personal Branding Section */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-sand-50/40 via-background to-ocean-50/40"></div>
         <div className="absolute top-10 left-10 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
