@@ -256,16 +256,50 @@ export default function Index() {
                         hands-on experience in IBM Maximo 7.6 and MAS 8, specializing in integration (MIF),
                         automation scripting (Jython/JavaScript), BIRT reporting, and system customization.
                       </p>
-                      <p className="mb-4">
+                      <p className="mb-6">
                         Currently working with <span className="font-semibold text-ocean-600">Bahrain Airport Services</span> as
                         part of the IBM Maximo Application Suite (MAS) project support team. I focus on secure,
                         scalable, and performance-driven EAM solutions.
                       </p>
+
+                      <div className="bg-gradient-to-r from-accent/10 to-sand/10 rounded-lg p-6 mb-6">
+                        <h4 className="text-xl font-bold text-accent mb-4">About Coastal Vibes – "To You, From the Coast"</h4>
+
+                        <div className="space-y-4">
+                          <div>
+                            <h5 className="font-semibold text-accent mb-2">Our Vision:</h5>
+                            <p className="text-sm">
+                              To bring the heartbeat of the coastal region to the world – through its vibrant culture,
+                              untold stories, local talents, and growing businesses.
+                            </p>
+                          </div>
+
+                          <div>
+                            <h5 className="font-semibold text-accent mb-2">Our Mission:</h5>
+                            <p className="text-sm">
+                              To empower youth, entrepreneurs, and creatives by providing a platform that inspires,
+                              uplifts, and creates real impact in the community.
+                            </p>
+                          </div>
+
+                          <div>
+                            <h5 className="font-semibold text-accent mb-2">What We've Done So Far:</h5>
+                            <ul className="text-sm space-y-1 list-disc list-inside">
+                              <li>Hosted 125+ episodes featuring changemakers from diverse backgrounds</li>
+                              <li>Supported startups and small businesses through digital promotion</li>
+                              <li>Organized talent contests, virtual concerts, and youth engagement events in India & the UK</li>
+                              <li>Led charity initiatives – including distributing 90+ ration kits during COVID</li>
+                              <li>Funded education for 20+ students and continuing</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
                       <p className="mb-6">
-                        I'm also the founder of <span className="font-semibold text-accent">Coastal Vibes India</span>,
-                        a non-profit digital media platform promoting India's coastal regions. Always eager to learn,
-                        adapt, and collaborate on impactful solutions.
+                        Always eager to learn, adapt, and collaborate on impactful solutions that blend technical
+                        excellence with meaningful social impact.
                       </p>
+
                       <div className="pt-4">
                         <a
                           href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
