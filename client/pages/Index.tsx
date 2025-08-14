@@ -293,7 +293,7 @@ export default function Index() {
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
 
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto text-center space-y-8">
+          <div className="max-w-5xl mx-auto text-center space-y-6">
             <div className="space-y-6">
               <div className="flex items-center justify-center gap-3 text-2xl font-bold">
                 <span className="text-primary">@cheerboyaral</span>
