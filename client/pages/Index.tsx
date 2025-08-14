@@ -305,7 +305,7 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">
-                      Technical Consultant
+                      Maximo Consultant
                     </h4>
                     <p className="text-muted-foreground">Praxis Solutions</p>
                   </div>
