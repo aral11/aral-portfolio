@@ -182,19 +182,10 @@ export default function Index() {
 
               {/* Social Links */}
               <div className="space-y-4">
-                <div className="flex justify-center lg:justify-start gap-4">
+                <div className="flex justify-center lg:justify-start">
                   <a href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-background border hover:border-primary/50 transition-all group">
                     <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-blue-600" />
                   </a>
-                  <div className="p-3 rounded-full bg-background border">
-                    <Instagram className="h-5 w-5 text-pink-600" />
-                  </div>
-                  <div className="p-3 rounded-full bg-background border">
-                    <Instagram className="h-5 w-5 text-ocean-600" />
-                  </div>
-                  <div className="p-3 rounded-full bg-background border">
-                    <Instagram className="h-5 w-5 text-sand-600" />
-                  </div>
                 </div>
                 
                 <div className="text-center lg:text-left text-sm text-muted-foreground space-y-2">
