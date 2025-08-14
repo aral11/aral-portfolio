@@ -1063,9 +1063,6 @@ export default function Index() {
             <p className="text-lg text-muted-foreground">
               © 2024 Aral Aldrin John Dsouza. All rights reserved.
             </p>
-            <p className="text-muted-foreground">
-              Built with React, TypeScript, and Tailwind CSS
-            </p>
           </div>
         </div>
       </footer>
