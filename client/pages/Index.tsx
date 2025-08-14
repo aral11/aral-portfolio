@@ -133,7 +133,7 @@ export default function Index() {
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-20">
             <div className="flex-1 text-center lg:text-left space-y-10">
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-none">
                   <span className="text-foreground">Aral Aldrin John</span>
                   <br />
@@ -141,59 +141,30 @@ export default function Index() {
                     D'Souza
                   </span>
                 </h1>
-                <div className="flex flex-wrap justify-center lg:justify-start gap-3 mt-8">
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
-                  >
-                    💻 Maximo Developer
-                  </Badge>
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-ocean-50 text-ocean-700 border-ocean-200 hover:bg-ocean-100 transition-colors"
-                  >
-                    🎯 Technical Consultant
-                  </Badge>
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-sand-50 text-sand-700 border-sand-200 hover:bg-sand-100 transition-colors"
-                  >
-                    🚀 Founder
-                  </Badge>
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-accent/10 text-accent border-accent/20 hover:bg-accent/20 transition-colors"
-                  >
-                    🎨 Digital Creator
-                  </Badge>
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-gradient-to-r from-primary/10 to-accent/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
-                  >
-                    🎤 Anchor
-                  </Badge>
-                  <Badge
-                    variant="secondary"
-                    className="px-4 py-2 text-base font-semibold bg-gradient-to-r from-ocean-50 to-sand-50 text-ocean-700 border-ocean-200 hover:bg-ocean-100 transition-colors"
-                  >
-                    ❤️ Philanthropist
-                  </Badge>
+
+                <div className="max-w-5xl space-y-6">
+                  <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
+                    Meet <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span> — a
+                    <span className="text-primary font-medium"> 💻 Maximo Developer</span>,
+                    <span className="text-ocean-600 font-medium"> 🎯 Technical Consultant</span>,
+                    <span className="text-green-600 font-medium"> 🚀 Founder</span>,
+                    <span className="text-accent font-medium"> 🎨 Digital Creator by passion</span>,
+                    <span className="text-sand-600 font-medium"> 🎤 Anchor by education</span>, and
+                    <span className="text-red-600 font-medium"> ❤️ Philanthropist</span> at heart.
+                    A <span className="text-muted-foreground"> ♍ Virgo 🍁</span> and
+                    <span className="text-ocean-700 font-medium"> 💻 Techie & MCA/MSc Grad 🎓</span>,
+                    I'm a skilled Maximo Consultant with over 5 years of focused experience in IBM Maximo and MAS 8 implementations,
+                    support, and customizations. My expertise spans Maximo Integration Framework (MIF), automation scripting
+                    (Jython/JavaScript), data migration, and BIRT reporting, having delivered solutions across multiple industry
+                    sectors while ensuring alignment with enterprise asset management (EAM) practices. With a strong
+                    technical-functional understanding of Maximo architecture and modules, I'm always eager to learn, adapt,
+                    and collaborate on impactful solutions. Whether you're looking to connect through my personal handle
+                    <span className="text-primary font-medium"> @cheerboyaral</span>, explore coastal vibes as
+                    <span className="text-ocean-600 font-medium"> @coastalvibes.in founder</span>, or find motivation via
+                    <span className="text-sand-600 font-medium"> @upliftwitharal</span> — let's connect and grow together!
+                  </p>
                 </div>
               </div>
-
-              <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-                Skilled Maximo Consultant with over 5 years of focused experience in IBM
-                Maximo and MAS 8 implementations, support, and customizations.
-                Proven expertise in Maximo Integration Framework (MIF), automation
-                scripting (Jython/JavaScript), data migration, and BIRT reporting.
-                Delivered solutions across multiple industry sectors, ensuring alignment
-                with enterprise asset management (EAM) practices. Strong technical-functional
-                understanding of Maximo architecture and modules. Always eager to learn, adapt,
-                and collaborate on impactful solutions.
-              </p>
-              <p className="text-xl text-primary font-semibold mt-4">
-                Let's connect and grow together!
-              </p>
 
               <div className="flex justify-center lg:justify-start">
                 <a href="#contact">
@@ -207,7 +178,7 @@ export default function Index() {
                 </a>
               </div>
 
-              <div className="space-y-6 flex flex-col items-center lg:items-start">
+              <div className="space-y-4 flex flex-col items-center lg:items-start">
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                   <a
                     href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a"
@@ -241,17 +212,6 @@ export default function Index() {
                   >
                     <ArrowRight className="h-7 w-7 text-muted-foreground group-hover:text-sand-600 transition-colors transform rotate-45" />
                   </a>
-                </div>
-                <div className="text-center lg:text-left space-y-2">
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium text-primary">@cheerboyaral</span> • Personal
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium text-ocean-600">@coastalvibes.in</span> • Founder
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-medium text-sand-600">@upliftwitharal</span> • Motivation
-                  </p>
                 </div>
               </div>
             </div>
