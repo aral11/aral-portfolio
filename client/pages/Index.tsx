@@ -180,8 +180,8 @@ export default function Index() {
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
                 <a
-                  href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2F4091f037a4d9481680641b7682945e52?alt=media&token=f6cdd397-890f-4672-925c-d50900513382&apiKey=a92c07345b2448db8df3322125c3b3e6"
-                  download="Aral_D'Souza_Resume.pdf"
+                  href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
+                  download="Aral_Resume.pdf"
                 >
                   <Button
                     size="lg"
