@@ -300,35 +300,17 @@ export default function Index() {
                 </a>
               </div>
 
-              {/* Social Links */}
-              <div className="flex gap-4 justify-center lg:justify-start">
-                {[
-                  {
-                    href: "https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a",
-                    icon: Linkedin,
-                    color: "hover:text-blue-600 hover:bg-blue-50"
-                  },
-                  {
-                    href: "https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr",
-                    icon: Instagram,
-                    color: "hover:text-pink-600 hover:bg-pink-50"
-                  },
-                  {
-                    href: "https://www.instagram.com/coastalvibes.in",
-                    icon: Instagram,
-                    color: "hover:text-ocean-600 hover:bg-ocean-50"
-                  }
-                ].map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`p-3 rounded-full bg-background/80 border border-border hover:border-primary/50 transition-all duration-300 group shadow-sm hover:shadow-md ${social.color}`}
-                  >
-                    <social.icon className="h-5 w-5 text-muted-foreground group-hover:scale-110 transition-transform" />
-                  </a>
-                ))}
+              {/* LinkedIn */}
+              <div className="flex justify-center lg:justify-start">
+                <a
+                  href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 border border-border hover:border-primary/50 transition-all duration-300 group shadow-sm hover:shadow-md hover:text-blue-600 hover:bg-blue-50"
+                >
+                  <Linkedin className="h-5 w-5 text-muted-foreground group-hover:scale-110 transition-transform" />
+                  <span className="text-sm font-medium">LinkedIn</span>
+                </a>
               </div>
             </div>
 
