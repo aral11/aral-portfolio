@@ -445,7 +445,7 @@ export default function Index() {
                   <div className="flex justify-between items-start flex-wrap gap-4">
                     <div>
                       <CardTitle className="text-2xl text-primary mb-2">
-                        Technical Consultant
+                        Maximo Consultant
                       </CardTitle>
                       <CardDescription className="flex items-center gap-2 text-lg">
                         <Building2 className="h-5 w-5" />
