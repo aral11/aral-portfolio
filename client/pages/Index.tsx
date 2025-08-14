@@ -141,24 +141,42 @@ export default function Index() {
                     D'Souza
                   </span>
                 </h1>
-                <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-8">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-3 mt-8">
                   <Badge
                     variant="secondary"
                     className="px-4 py-2 text-base font-semibold bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
                   >
-                    Maximo Developer
+                    💻 Maximo Developer
                   </Badge>
                   <Badge
                     variant="secondary"
                     className="px-4 py-2 text-base font-semibold bg-ocean-50 text-ocean-700 border-ocean-200 hover:bg-ocean-100 transition-colors"
                   >
-                    Technical Consultant
+                    🎯 Technical Consultant
                   </Badge>
                   <Badge
                     variant="secondary"
                     className="px-4 py-2 text-base font-semibold bg-sand-50 text-sand-700 border-sand-200 hover:bg-sand-100 transition-colors"
                   >
-                    Founder
+                    🚀 Founder
+                  </Badge>
+                  <Badge
+                    variant="secondary"
+                    className="px-4 py-2 text-base font-semibold bg-accent/10 text-accent border-accent/20 hover:bg-accent/20 transition-colors"
+                  >
+                    🎨 Digital Creator
+                  </Badge>
+                  <Badge
+                    variant="secondary"
+                    className="px-4 py-2 text-base font-semibold bg-gradient-to-r from-primary/10 to-accent/10 text-primary border-primary/20 hover:bg-primary/20 transition-colors"
+                  >
+                    🎤 Anchor
+                  </Badge>
+                  <Badge
+                    variant="secondary"
+                    className="px-4 py-2 text-base font-semibold bg-gradient-to-r from-ocean-50 to-sand-50 text-ocean-700 border-ocean-200 hover:bg-ocean-100 transition-colors"
+                  >
+                    ❤️ Philanthropist
                   </Badge>
                 </div>
               </div>
