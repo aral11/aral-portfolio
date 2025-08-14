@@ -243,28 +243,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Personal Introduction */}
-      <section className="py-6 relative">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-6xl mx-auto text-center">
-            <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              <span className="font-semibold text-primary">@cheerboyaral</span>
-              <span className="text-muted-foreground"> • </span>
-              <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span>
-              <span className="text-muted-foreground"> 🎨 </span>
-              <span className="text-primary">Digital Creator by passion</span>
-              <span className="text-muted-foreground"> ♍ Virgo 🍁 💻 </span>
-              <span className="text-ocean-600">Techie & MCA/MSc Grad 🎓</span>
-              <span className="text-muted-foreground"> 🎤 </span>
-              <span className="text-accent">By Education Anchor</span>
-              <span className="text-muted-foreground"> ❤️ </span>
-              <span className="text-red-600">Philanthropist</span>
-              <span className="text-muted-foreground"> 🚀 - by interest </span>
-              <span className="text-green-600">Founder</span>
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* About My Profession Section */}
       <section
