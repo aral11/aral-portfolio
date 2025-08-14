@@ -394,7 +394,7 @@ export default function Index() {
                     <div className="text-sm">
                       <p className="font-semibold text-ocean-700">Maximo Consultant</p>
                       <p className="text-ocean-600">Praxis Solutions</p>
-                      <p className="text-xs text-ocean-500 mt-1">Oct 2024 - Present</p>
+                      <p className="text-xs text-ocean-500 mt-1">Aug 2024 - Present</p>
                     </div>
                   </CardContent>
                 </Card>
