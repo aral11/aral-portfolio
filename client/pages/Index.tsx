@@ -245,25 +245,40 @@ export default function Index() {
                 <div className="bg-background/50 backdrop-blur border border-border/50 rounded-2xl p-6 space-y-4">
                   <p className="font-semibold text-foreground">Connect with me:</p>
                   <div className="space-y-3 text-sm">
-                    <div className="flex items-center gap-2">
+                    <a
+                      href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                    >
                       <Instagram className="h-4 w-4 text-primary" />
                       <span className="text-primary font-medium">@cheerboyaral</span>
                       <span className="text-muted-foreground">•</span>
                       <span>Personal</span>
-                    </div>
+                    </a>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <div className="flex items-center gap-2">
+                      <a
+                        href="https://www.instagram.com/coastalvibes.in"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                      >
                         <Instagram className="h-4 w-4 text-ocean-600" />
                         <span className="text-ocean-600 font-medium">@coastalvibes.in</span>
                         <span className="text-muted-foreground">•</span>
                         <span>Founder</span>
-                      </div>
-                      <div className="flex items-center gap-2">
+                      </a>
+                      <a
+                        href="https://www.instagram.com/upliftwitharal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                      >
                         <Instagram className="h-4 w-4 text-sand-600" />
                         <span className="text-sand-600 font-medium">@upliftwitharal</span>
                         <span className="text-muted-foreground">•</span>
                         <span>Motivation</span>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
