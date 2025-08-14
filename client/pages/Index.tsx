@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+fimport { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -173,7 +173,7 @@ export default function Index() {
 
               <p className="text-base lg:text-lg text-muted-foreground/90 leading-relaxed max-w-2xl">
                 Beyond technology, I'm a passionate <span className="font-semibold text-accent">Digital Creator</span> ,
-                <span className="font-semibold text-green-600">Philanthropist</span> , and <span className="font-semibold text-ocean-600">Founder</span>
+                <span className="font-semibold text-green-600">Philanthropist</span> , and <span className="font-semibold text-ocean-600">Founder </span>
                  of Coastal Vibes India - dedicated to empowering communities and creating meaningful social impact
                 through innovative digital platforms.
               </p>
