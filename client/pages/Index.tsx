@@ -464,24 +464,25 @@ export default function Index() {
                 <CardContent>
                   <ul className="space-y-3 text-lg text-muted-foreground">
                     <li>
-                      • Working with Bahrain Airport Services on IBM Maximo
-                      Application Suite (MAS) project
+                      • Supporting MAS 8 Manage platform for Bahrain Airport Services
+                      with technical and functional enhancements
                     </li>
                     <li>
-                      • Maximo integration, automation scripting, application
-                      monitoring, and customization
+                      • Developed and deployed automation scripts (Jython) and custom
+                      actions for key workflows
                     </li>
                     <li>
-                      • BIRT report development and troubleshooting for business
-                      intelligence
+                      • Designed MIF configurations for third-party integrations and
+                      real-time data sync
                     </li>
                     <li>
-                      • MBO (Maximo Business Objects) enhancement for custom
-                      business requirements
+                      • Customized BIRT reports, application screens, and domain values
                     </li>
                     <li>
-                      • End-to-end Maximo configurations: escalations,
-                      workflows, relationships, object structures
+                      • Provided ongoing production support, monitoring, and troubleshooting
+                    </li>
+                    <li>
+                      • Implemented secure coding practices and conducted unit-level testing
                     </li>
                   </ul>
                 </CardContent>
