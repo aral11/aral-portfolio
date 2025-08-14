@@ -33,6 +33,7 @@ export default function Index() {
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
   >("idle");
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleContactSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
