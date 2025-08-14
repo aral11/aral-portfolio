@@ -324,94 +324,140 @@ export default function Index() {
       {/* About My Profession Section */}
       <section
         id="about"
-        className="py-32 bg-gradient-to-b from-background to-muted/20"
+        className="py-20 lg:py-32 relative overflow-hidden"
       >
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Background Elements */}
+        <div className="absolute inset-0 bg-gradient-to-b from-muted/10 to-background"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
+
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-20">
-              <h2 className="text-5xl lg:text-6xl font-bold mb-6">About my profession</h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-accent to-primary mx-auto rounded-full"></div>
+
+            {/* Section Header */}
+            <div className="text-center mb-16 lg:mb-20">
+              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Building2 className="h-4 w-4" />
+                Professional Background
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+                About My Profession
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Dedicated to delivering innovative Maximo solutions and creating meaningful digital impact
+              </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div className="space-y-8">
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  I'm a versatile Maximo Developer with hands-on experience in
-                  IBM Maximo 7.6 and MAS 8, specializing in integration (MIF),
-                  automation scripting (Jython/JavaScript), BIRT reporting, and
-                  system customization. My journey spans across Kuwait
-                  and Bahrain, contributing to enterprise-level Maximo projects.
-                </p>
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  Currently working with Bahrain Airport Services as part of the
-                  IBM Maximo Application Suite (MAS) project support team. I
-                  focus on secure, scalable, and performance-driven EAM
-                  solutions, aligning technology with business needs while
-                  following best practices in system design and cybersecurity.
-                </p>
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  I'm also the founder of Coastal Vibes India, a non-profit
-                  digital media platform promoting India's coastal regions.
-                  Always eager to learn, adapt, and collaborate on impactful
-                  solutions.
-                </p>
+            <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
 
-                <div className="mt-8">
-                  <a
-                    href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
-                    download="Aral_Resume.pdf"
-                  >
-                    <Button
-                      size="lg"
-                      className="group bg-primary hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4"
-                    >
-                      <Download className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-                      Download Resume
-                    </Button>
-                  </a>
-                </div>
+              {/* Main Content */}
+              <div className="lg:col-span-2 space-y-8">
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-background to-muted/20 hover:shadow-xl transition-all duration-300">
+                  <CardContent className="p-8">
+                    <h3 className="text-2xl font-bold mb-6 text-foreground">Professional Journey</h3>
+                    <div className="space-y-6 text-muted-foreground leading-relaxed">
+                      <p className="text-lg">
+                        I'm a versatile <span className="font-semibold text-primary">Maximo Developer</span> with
+                        hands-on experience in IBM Maximo 7.6 and MAS 8, specializing in integration (MIF),
+                        automation scripting (Jython/JavaScript), BIRT reporting, and system customization.
+                        My journey spans across <span className="font-medium">Kuwait and Bahrain</span>,
+                        contributing to enterprise-level Maximo projects.
+                      </p>
+                      <p className="text-lg">
+                        Currently working with <span className="font-semibold text-ocean-600">Bahrain Airport Services</span> as
+                        part of the IBM Maximo Application Suite (MAS) project support team. I focus on secure,
+                        scalable, and performance-driven EAM solutions, aligning technology with business needs
+                        while following best practices in system design and cybersecurity.
+                      </p>
+                      <p className="text-lg">
+                        I'm also the founder of <span className="font-semibold text-accent">Coastal Vibes India</span>,
+                        a non-profit digital media platform promoting India's coastal regions. Always eager to learn,
+                        adapt, and collaborate on impactful solutions.
+                      </p>
+                    </div>
+
+                    <div className="mt-8 pt-6 border-t border-border/50">
+                      <a
+                        href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
+                        download="Aral_Resume.pdf"
+                      >
+                        <Button
+                          size="lg"
+                          className="group bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 text-base px-8 py-3"
+                        >
+                          <Download className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                          Download Resume
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                        </Button>
+                      </a>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
 
+              {/* Highlight Cards */}
               <div className="space-y-6">
-                <div className="flex items-center gap-4 p-4 rounded-xl bg-background/50 border border-primary/10 hover:border-primary/20 transition-colors">
-                  <div className="p-3 rounded-full bg-primary/10">
-                    <GraduationCap className="h-7 w-7 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">
-                      Master's in Cyber Security
-                    </h4>
-                    <p className="text-muted-foreground">
-                      Coventry University, UK
-                    </p>
-                  </div>
-                </div>
+                <Card className="group border-0 shadow-lg bg-gradient-to-br from-primary/5 to-primary/10 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="p-3 rounded-xl bg-primary/20 group-hover:bg-primary/30 transition-colors">
+                        <GraduationCap className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg text-foreground">Education</h4>
+                        <p className="text-sm text-muted-foreground">Academic Background</p>
+                      </div>
+                    </div>
+                    <div className="space-y-3">
+                      <div>
+                        <p className="font-semibold text-primary">MSc in Cyber Security</p>
+                        <p className="text-sm text-muted-foreground">Coventry University, UK</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-primary">MCA</p>
+                        <p className="text-sm text-muted-foreground">Manipal University, India</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
 
-                <div className="flex items-center gap-4 p-4 rounded-xl bg-background/50 border border-primary/10 hover:border-primary/20 transition-colors">
-                  <div className="p-3 rounded-full bg-primary/10">
-                    <Building2 className="h-7 w-7 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">
-                      Maximo Consultant
-                    </h4>
-                    <p className="text-muted-foreground">Praxis Solutions</p>
-                  </div>
-                </div>
+                <Card className="group border-0 shadow-lg bg-gradient-to-br from-ocean-50 to-ocean-100 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="p-3 rounded-xl bg-ocean-200 group-hover:bg-ocean-300 transition-colors">
+                        <Building2 className="h-6 w-6 text-ocean-700" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg text-foreground">Current Role</h4>
+                        <p className="text-sm text-muted-foreground">Professional Position</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-ocean-700">Maximo Consultant</p>
+                      <p className="text-sm text-muted-foreground">Praxis Solutions</p>
+                      <p className="text-xs text-ocean-600 mt-2">Bahrain Airport Services</p>
+                    </div>
+                  </CardContent>
+                </Card>
 
-                <div className="flex items-center gap-4 p-4 rounded-xl bg-background/50 border border-accent/10 hover:border-accent/20 transition-colors">
-                  <div className="p-3 rounded-full bg-accent/10">
-                    <Trophy className="h-7 w-7 text-accent" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">
-                      IBM Maximo 7.6 & MAS 8
-                    </h4>
-                    <p className="text-muted-foreground">
-                      Enterprise Asset Management
-                    </p>
-                  </div>
-                </div>
+                <Card className="group border-0 shadow-lg bg-gradient-to-br from-accent/10 to-accent/20 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="p-3 rounded-xl bg-accent/30 group-hover:bg-accent/40 transition-colors">
+                        <Trophy className="h-6 w-6 text-accent-foreground" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-lg text-foreground">Expertise</h4>
+                        <p className="text-sm text-muted-foreground">Core Specialization</p>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-accent-foreground">IBM Maximo 7.6 & MAS 8</p>
+                      <p className="text-sm text-muted-foreground">Enterprise Asset Management</p>
+                      <p className="text-xs text-accent-foreground/80 mt-2">5+ Years Experience</p>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>
