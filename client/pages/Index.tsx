@@ -812,14 +812,21 @@ export default function Index() {
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-primary/10">
                     <h4 className="font-semibold text-xl text-primary">
-                      Bachelor of Computer Applications (BCA)
+                      MCA
                     </h4>
                     <p className="text-muted-foreground text-lg">
-                      Mangalore University
+                      Manipal University, India (Correspondence)
                     </p>
-                    <p className="text-muted-foreground">
-                      80% Final Year Score
+                    <p className="text-muted-foreground">2023</p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-background/50 border border-primary/10">
+                    <h4 className="font-semibold text-xl text-primary">
+                      BCA
+                    </h4>
+                    <p className="text-muted-foreground text-lg">
+                      Mangalore University, India
                     </p>
+                    <p className="text-muted-foreground">2019</p>
                   </div>
                 </CardContent>
               </Card>
