@@ -202,8 +202,8 @@ export default function Index() {
                 </a>
               </div>
 
-              <div className="space-y-4 flex flex-col items-center lg:items-start">
-                <div className="flex gap-6">
+              <div className="space-y-6 flex flex-col items-center lg:items-start">
+                <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                   <a
                     href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a"
                     target="_blank"
@@ -216,15 +216,36 @@ export default function Index() {
                     href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 group shadow-lg hover:shadow-xl"
+                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-accent/50 hover:bg-accent/5 transition-all duration-300 group shadow-lg hover:shadow-xl"
                   >
-                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
+                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-accent transition-colors" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/coastalvibes.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-ocean-400 hover:bg-ocean-50 transition-all duration-300 group shadow-lg hover:shadow-xl"
+                  >
+                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-ocean-600 transition-colors" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/upliftwitharal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-sand-400 hover:bg-sand-50 transition-all duration-300 group shadow-lg hover:shadow-xl"
+                  >
+                    <ArrowRight className="h-7 w-7 text-muted-foreground group-hover:text-sand-600 transition-colors transform rotate-45" />
                   </a>
                 </div>
-                <div className="text-center lg:text-left">
+                <div className="text-center lg:text-left space-y-2">
                   <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">@cheerboyaral</span> •
-                    Personal
+                    <span className="font-medium text-primary">@cheerboyaral</span> • Personal
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium text-ocean-600">@coastalvibes.in</span> • Founder
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-medium text-sand-600">@upliftwitharal</span> • Motivation
                   </p>
                 </div>
               </div>
