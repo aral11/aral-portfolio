@@ -164,14 +164,13 @@ export default function Index() {
               </div>
 
               <p className="text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-                Versatile Maximo Developer with hands-on experience in IBM
-                Maximo 7.6 and MAS 8 (Manage), specializing in integration
-                (MIF), automation scripting (Jython/JavaScript), BIRT reporting,
-                and system customization. Currently contributing to
-                enterprise-level Maximo projects with a strong focus on secure,
-                scalable, and performance-driven EAM solutions. I enjoy aligning
-                technology with business needs while following best practices in
-                system design and cybersecurity. Always eager to learn, adapt,
+                Skilled Maximo Consultant with over 5 years of focused experience in IBM
+                Maximo and MAS 8 implementations, support, and customizations.
+                Proven expertise in Maximo Integration Framework (MIF), automation
+                scripting (Jython/JavaScript), data migration, and BIRT reporting.
+                Delivered solutions across multiple industry sectors, ensuring alignment
+                with enterprise asset management (EAM) practices. Strong technical-functional
+                understanding of Maximo architecture and modules. Always eager to learn, adapt,
                 and collaborate on impactful solutions.
               </p>
               <p className="text-xl text-primary font-semibold mt-4">
