@@ -247,6 +247,105 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Personal Branding Section */}
+      <section className="py-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-sand-50/40 via-background to-ocean-50/40"></div>
+        <div className="absolute top-10 left-10 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 right-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto text-center space-y-12">
+            <div className="space-y-6">
+              <div className="flex items-center justify-center gap-3 text-2xl font-bold">
+                <span className="text-primary">@cheerboyaral</span>
+                <span className="text-muted-foreground">•</span>
+                <span className="text-accent">Aral Aldrin John D'Souza</span>
+              </div>
+
+              <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-primary/10 to-primary/20 text-primary border-primary/30 hover:bg-primary/20">
+                  🎨 Digital Creator
+                </Badge>
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-accent/10 to-accent/20 text-accent border-accent/30 hover:bg-accent/20">
+                  ♍ Virgo 🍁
+                </Badge>
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-ocean-100/80 to-ocean-200/80 text-ocean-700 border-ocean-300 hover:bg-ocean-200/80">
+                  💻 Techie & MCA/MSc Grad 🎓
+                </Badge>
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-sand-100/80 to-sand-200/80 text-sand-700 border-sand-300 hover:bg-sand-200/80">
+                  🎤 Anchor
+                </Badge>
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-primary/10 to-primary/20 text-primary border-primary/30 hover:bg-primary/20">
+                  ❤️ Philanthropist
+                </Badge>
+                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-accent/10 to-accent/20 text-accent border-accent/30 hover:bg-accent/20">
+                  🚀 Founder
+                </Badge>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 mt-12">
+              <Card className="group hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/30 bg-gradient-to-br from-background to-primary/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Instagram className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Coastal Vibes</h3>
+                  <p className="text-muted-foreground mb-4">Promoting India's coastal regions</p>
+                  <a
+                    href="https://www.instagram.com/coastalvibes.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-primary hover:text-primary/80 transition-colors font-medium"
+                  >
+                    @coastalvibes.in
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </a>
+                </CardContent>
+              </Card>
+
+              <Card className="group hover:shadow-xl transition-all duration-500 border-2 hover:border-accent/30 bg-gradient-to-br from-background to-accent/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+                    <ArrowRight className="h-8 w-8 text-accent transform rotate-45" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Uplift</h3>
+                  <p className="text-muted-foreground mb-4">Motivational content & inspiration</p>
+                  <a
+                    href="https://www.instagram.com/upliftwitharal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-accent hover:text-accent/80 transition-colors font-medium"
+                  >
+                    @upliftwitharal
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </a>
+                </CardContent>
+              </Card>
+
+              <Card className="group hover:shadow-xl transition-all duration-500 border-2 hover:border-ocean-300 bg-gradient-to-br from-background to-ocean-50">
+                <CardContent className="p-6 text-center">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-ocean-100 flex items-center justify-center">
+                    <Building2 className="h-8 w-8 text-ocean-600" />
+                  </div>
+                  <h3 className="font-semibold text-lg mb-2">Coastal Connect</h3>
+                  <p className="text-muted-foreground mb-4">Connecting coastal communities</p>
+                  <a
+                    href="https://www.instagram.com/coastalconnect.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-ocean-600 hover:text-ocean-500 transition-colors font-medium"
+                  >
+                    @coastalconnect.in
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </a>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Me Section */}
       <section
         id="about"
