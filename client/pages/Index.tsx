@@ -195,24 +195,11 @@ export default function Index() {
                 Let's connect and grow together!
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                <a
-                  href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
-                  download="Aral_Resume.pdf"
-                >
+              <div className="flex justify-center lg:justify-start">
+                <a href="#contact">
                   <Button
                     size="lg"
                     className="group bg-primary hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4"
-                  >
-                    <Download className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
-                    Download Resume
-                  </Button>
-                </a>
-                <a href="#contact">
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="border-2 hover:bg-primary/5 transition-all duration-300 text-lg px-8 py-4"
                   >
                     <Mail className="mr-3 h-6 w-6" />
                     Contact Me
