@@ -457,7 +457,7 @@ export default function Index() {
                       className="flex items-center gap-2 border-primary/30 text-primary px-4 py-2 text-base font-medium"
                     >
                       <Calendar className="h-4 w-4" />
-                      Aug 2024 - Present
+                      Oct 2024 - Present
                     </Badge>
                   </div>
                 </CardHeader>
