@@ -368,7 +368,7 @@ export default function Index() {
                     <Building2 className="h-8 w-8 text-ocean-600" />
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Coastal Connect</h3>
-                  <p className="text-muted-foreground mb-4">Connecting coastal communities</p>
+                  <p className="text-muted-foreground mb-4">Your gateway to exploring Udupi & Manipal like never before!</p>
                   <a
                     href="https://www.instagram.com/coastalconnect.in"
                     target="_blank"
@@ -1005,7 +1005,7 @@ export default function Index() {
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      JavaScript ��� Intro to Programming
+                      JavaScript – Intro to Programming
                     </h4>
                   </div>
                 </CardContent>
