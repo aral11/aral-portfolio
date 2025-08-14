@@ -266,7 +266,7 @@ export default function Index() {
                   I'm a versatile Maximo Developer with hands-on experience in
                   IBM Maximo 7.6 and MAS 8, specializing in integration (MIF),
                   automation scripting (Jython/JavaScript), BIRT reporting, and
-                  system customization. My journey spans across India, Kuwait,
+                  system customization. My journey spans across Kuwait
                   and Bahrain, contributing to enterprise-level Maximo projects.
                 </p>
                 <p className="text-xl text-muted-foreground leading-relaxed">
