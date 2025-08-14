@@ -302,22 +302,22 @@ export default function Index() {
               </div>
 
               <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-primary/10 to-primary/20 text-primary border-primary/30 hover:bg-primary/20">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-primary/15 to-primary/25 text-primary border-primary/40 hover:bg-primary/25 shadow-sm">
                   🎨 Digital Creator
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-accent/10 to-accent/20 text-accent border-accent/30 hover:bg-accent/20">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-accent/15 to-accent/25 text-accent border-accent/40 hover:bg-accent/25 shadow-sm">
                   ♍ Virgo 🍁
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-ocean-100/80 to-ocean-200/80 text-ocean-700 border-ocean-300 hover:bg-ocean-200/80">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-ocean-100 to-ocean-200 text-ocean-800 border-ocean-400 hover:bg-ocean-250 shadow-sm">
                   💻 Techie & MCA/MSc Grad 🎓
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-sand-100/80 to-sand-200/80 text-sand-700 border-sand-300 hover:bg-sand-200/80">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-sand-100 to-sand-200 text-sand-800 border-sand-400 hover:bg-sand-250 shadow-sm">
                   🎤 Anchor
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-primary/10 to-primary/20 text-primary border-primary/30 hover:bg-primary/20">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-primary/15 to-primary/25 text-primary border-primary/40 hover:bg-primary/25 shadow-sm">
                   ❤️ Philanthropist
                 </Badge>
-                <Badge className="px-4 py-2 text-sm font-medium bg-gradient-to-r from-accent/10 to-accent/20 text-accent border-accent/30 hover:bg-accent/20">
+                <Badge className="px-4 py-2 text-sm font-semibold bg-gradient-to-r from-accent/15 to-accent/25 text-accent border-accent/40 hover:bg-accent/25 shadow-sm">
                   🚀 Founder
                 </Badge>
               </div>
