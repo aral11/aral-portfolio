@@ -244,11 +244,26 @@ export default function Index() {
 
                 <div className="bg-background/50 backdrop-blur border border-border/50 rounded-2xl p-6 space-y-4">
                   <p className="font-semibold text-foreground">Connect with me:</p>
-                  <div className="space-y-2 text-sm">
-                    <p><span className="text-primary font-medium">@cheerboyaral</span> • Personal</p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      <p><span className="text-ocean-600 font-medium">@coastalvibes.in</span> • Founder</p>
-                      <p><span className="text-sand-600 font-medium">@upliftwitharal</span> • Motivation</p>
+                  <div className="space-y-3 text-sm">
+                    <div className="flex items-center gap-2">
+                      <Instagram className="h-4 w-4 text-primary" />
+                      <span className="text-primary font-medium">@cheerboyaral</span>
+                      <span className="text-muted-foreground">•</span>
+                      <span>Personal</span>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div className="flex items-center gap-2">
+                        <Instagram className="h-4 w-4 text-ocean-600" />
+                        <span className="text-ocean-600 font-medium">@coastalvibes.in</span>
+                        <span className="text-muted-foreground">•</span>
+                        <span>Founder</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Instagram className="h-4 w-4 text-sand-600" />
+                        <span className="text-sand-600 font-medium">@upliftwitharal</span>
+                        <span className="text-muted-foreground">•</span>
+                        <span>Motivation</span>
+                      </div>
                     </div>
                   </div>
                 </div>
