@@ -171,20 +171,11 @@ export default function Index() {
                 BIRT reporting, and enterprise asset management across multiple industry sectors.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <div className="flex justify-center lg:justify-start">
                 <a href="#contact">
                   <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg">
                     <Mail className="mr-2 h-5 w-5" />
                     Get In Touch
-                  </Button>
-                </a>
-                <a
-                  href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
-                  download="Aral_Resume.pdf"
-                >
-                  <Button variant="outline" size="lg" className="border-2">
-                    <Download className="mr-2 h-5 w-5" />
-                    Resume
                   </Button>
                 </a>
               </div>
@@ -206,10 +197,28 @@ export default function Index() {
                   </a>
                 </div>
                 
-                <div className="text-center lg:text-left text-sm text-muted-foreground space-y-1">
-                  <p><span className="font-medium">@cheerboyaral</span> • Personal</p>
-                  <p><span className="font-medium">@coastalvibes.in</span> • Founder</p>
-                  <p><span className="font-medium">@upliftwitharal</span> • Motivation</p>
+                <div className="text-center lg:text-left text-sm text-muted-foreground space-y-2">
+                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                    <Instagram className="h-4 w-4 text-pink-600" />
+                    <a href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-pink-600 transition-colors">
+                      @cheerboyaral
+                    </a>
+                    <span>• Personal</span>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                    <Instagram className="h-4 w-4 text-ocean-600" />
+                    <a href="https://www.instagram.com/coastalvibes.in" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-ocean-600 transition-colors">
+                      @coastalvibes.in
+                    </a>
+                    <span>• Founder</span>
+                  </div>
+                  <div className="flex items-center justify-center lg:justify-start gap-2">
+                    <Instagram className="h-4 w-4 text-sand-600" />
+                    <a href="https://www.instagram.com/upliftwitharal" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-sand-600 transition-colors">
+                      @upliftwitharal
+                    </a>
+                    <span>• Motivation</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -252,20 +261,31 @@ export default function Index() {
                     <h3 className="text-2xl font-bold mb-6">My Journey</h3>
                     <div className="prose prose-lg max-w-none text-muted-foreground">
                       <p className="mb-4">
-                        I'm a versatile <span className="font-semibold text-primary">Maximo Developer</span> with 
-                        hands-on experience in IBM Maximo 7.6 and MAS 8, specializing in integration (MIF), 
+                        I'm a versatile <span className="font-semibold text-primary">Maximo Developer</span> with
+                        hands-on experience in IBM Maximo 7.6 and MAS 8, specializing in integration (MIF),
                         automation scripting (Jython/JavaScript), BIRT reporting, and system customization.
                       </p>
                       <p className="mb-4">
-                        Currently working with <span className="font-semibold text-ocean-600">Bahrain Airport Services</span> as 
-                        part of the IBM Maximo Application Suite (MAS) project support team. I focus on secure, 
+                        Currently working with <span className="font-semibold text-ocean-600">Bahrain Airport Services</span> as
+                        part of the IBM Maximo Application Suite (MAS) project support team. I focus on secure,
                         scalable, and performance-driven EAM solutions.
                       </p>
-                      <p>
-                        I'm also the founder of <span className="font-semibold text-accent">Coastal Vibes India</span>, 
-                        a non-profit digital media platform promoting India's coastal regions. Always eager to learn, 
+                      <p className="mb-6">
+                        I'm also the founder of <span className="font-semibold text-accent">Coastal Vibes India</span>,
+                        a non-profit digital media platform promoting India's coastal regions. Always eager to learn,
                         adapt, and collaborate on impactful solutions.
                       </p>
+                      <div className="pt-4">
+                        <a
+                          href="https://cdn.builder.io/o/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Feb2b53fabc6b40e383a3ab5c4bcc7115?alt=media&token=3042406a-89d1-4b99-8820-2bca0a184c7a&apiKey=a92c07345b2448db8df3322125c3b3e6"
+                          download="Aral_Resume.pdf"
+                        >
+                          <Button variant="outline" size="lg" className="border-2">
+                            <Download className="mr-2 h-5 w-5" />
+                            Download Resume
+                          </Button>
+                        </a>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
