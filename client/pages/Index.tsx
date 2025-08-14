@@ -557,26 +557,23 @@ export default function Index() {
                 <CardContent>
                   <ul className="space-y-3 text-lg text-muted-foreground">
                     <li>
-                      • Hands-on experience with IBM Maximo 7.5 and 7.6:
-                      functional design, module configuration, customization
+                      • Participated in two end-to-end IBM Maximo upgrade projects
+                      (7.5 to 7.6) for KNPC
                     </li>
                     <li>
-                      • Maximo Mobile configuration and Android-based mobile app
-                      integration
+                      • Developed and maintained automation scripts, workflows,
+                      and MIF integrations
                     </li>
                     <li>
-                      • Enterprise applications using ASP.NET MVC, jQuery,
-                      JavaScript, AngularJS, Kendo UI
+                      • Delivered custom solutions for spare parts interchangeability,
+                      contractor management, and asset tracking
                     </li>
                     <li>
-                      • Maximo BIRT reporting and custom report development
+                      • Designed and optimized SQL queries and BIRT reports
                     </li>
                     <li>
-                      • Performance testing with Apache JMeter and Selenium
-                      automation
-                    </li>
-                    <li>
-                      • Agile development and client requirement gathering
+                      • Assisted in technical-functional mapping and user support
+                      across all Maximo modules
                     </li>
                   </ul>
                 </CardContent>
