@@ -1005,7 +1005,7 @@ export default function Index() {
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      JavaScript – Intro to Programming
+                      JavaScript ��� Intro to Programming
                     </h4>
                   </div>
                 </CardContent>
@@ -1073,6 +1073,20 @@ export default function Index() {
                       className="text-accent hover:underline text-lg"
                     >
                       @cheerboyaral
+                    </a>
+                  </div>
+
+                  <div className="flex items-center gap-4 p-4 rounded-xl bg-background/50 border border-ocean-200 hover:border-ocean-300 transition-colors">
+                    <div className="p-3 rounded-full bg-ocean-100">
+                      <Instagram className="h-6 w-6 text-ocean-600" />
+                    </div>
+                    <a
+                      href="https://www.instagram.com/coastalconnect.in"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-ocean-600 hover:underline text-lg"
+                    >
+                      @coastalconnect.in
                     </a>
                   </div>
                 </div>
