@@ -143,7 +143,7 @@ export default function Index() {
                 </h1>
 
                 <div className="max-w-5xl space-y-6">
-                  <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
+                  <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed text-justify">
                     <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span>,
                     <span className="text-primary font-medium">Maximo Developer</span>,
                     <span className="text-ocean-600 font-medium">Technical Consultant</span>,
@@ -160,13 +160,23 @@ export default function Index() {
                     Reach out via <span className="text-primary font-medium">@cheerboyaral (Personal)</span>.
                   </p>
 
-                  <div className="space-y-2 text-lg text-muted-foreground">
-                    <p><strong className="text-foreground">Other contacts:</strong></p>
-                    <p><span className="text-ocean-600 font-medium">@coastalvibes.in</span> • Founder</p>
-                    <p><span className="text-sand-600 font-medium">@upliftwitharal</span> • Motivation</p>
+                  <div className="space-y-3 text-lg text-muted-foreground mt-8">
+                    <p className="font-semibold text-foreground text-xl">Other contacts:</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pl-4">
+                      <p className="flex items-center">
+                        <span className="text-ocean-600 font-medium">@coastalvibes.in</span>
+                        <span className="mx-2">•</span>
+                        <span>Founder</span>
+                      </p>
+                      <p className="flex items-center">
+                        <span className="text-sand-600 font-medium">@upliftwitharal</span>
+                        <span className="mx-2">•</span>
+                        <span>Motivation</span>
+                      </p>
+                    </div>
                   </div>
 
-                  <p className="text-lg text-muted-foreground leading-relaxed italic">
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify italic border-l-4 border-primary/30 pl-6 mt-8">
                     Aral Aldrin John D'Souza is a <span className="text-accent font-medium">digital creator by passion</span>,
                     <span className="text-sand-600 font-medium">anchor by interest</span>,
                     <span className="text-red-600 font-medium">philanthropist by heart</span>, and
