@@ -465,92 +465,217 @@ export default function Index() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-32 bg-gradient-to-b from-muted/20 to-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="skills" className="py-20 lg:py-32 relative overflow-hidden">
+        {/* Background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/5 to-background"></div>
+        <div className="absolute top-20 left-20 w-80 h-80 bg-ocean-200/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-20 right-20 w-80 h-80 bg-accent/20 rounded-full blur-3xl animate-float-delayed"></div>
+
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-20">
-              <h2 className="text-5xl lg:text-6xl font-bold mb-6">
+
+            {/* Section Header */}
+            <div className="text-center mb-16 lg:mb-20">
+              <div className="inline-flex items-center gap-2 bg-ocean-100 text-ocean-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+                <Trophy className="h-4 w-4" />
+                Core Competencies
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
                 Skills & Technologies
               </h2>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-primary via-accent to-primary mx-auto rounded-full"></div>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Comprehensive expertise across technical development and creative innovation
+              </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-10">
-              <Card className="group hover:shadow-2xl transition-all duration-500 border-2 hover:border-primary/30 bg-gradient-to-br from-background to-primary/5">
-                <CardHeader className="pb-6">
-                  <CardTitle className="text-3xl flex items-center gap-4">
-                    <div className="w-3 h-12 bg-gradient-to-b from-primary to-ocean-600 rounded-full"></div>
-                    <span className="bg-gradient-to-r from-primary to-ocean-600 bg-clip-text text-transparent">
-                      Technical Skills
-                    </span>
-                  </CardTitle>
-                  <CardDescription className="text-lg">
-                    Core development and engineering skills
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-3">
-                    {[
-                      "IBM Maximo Development",
-                      "Automation Scripting",
-                      "Workflow Configuration",
-                      "BIRT Report Development",
-                      "Maximo Integration Framework (MIF)",
-                      "Database & SQL Skills",
-                      "Application Designer & UI Customization",
-                      "Functional Knowledge of EAM Modules",
-                      "Maximo Application Suite (MAS 8.x)",
-                      "Knowledge of Server & Deployment Environments",
-                      "Agile Methodologies & Team Collaboration",
-                    ].map((skill) => (
-                      <Badge
-                        key={skill}
-                        variant="secondary"
-                        className="bg-ocean-50 text-ocean-700 border border-ocean-200 hover:bg-ocean-100 transition-all duration-300 px-4 py-2 text-sm font-medium hover:scale-105"
-                      >
-                        {skill}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+            {/* Skills Grid */}
+            <div className="grid lg:grid-cols-3 gap-8">
 
-              <Card className="group hover:shadow-2xl transition-all duration-500 border-2 hover:border-accent/30 bg-gradient-to-br from-background to-accent/5">
-                <CardHeader className="pb-6">
-                  <CardTitle className="text-3xl flex items-center gap-4">
-                    <div className="w-3 h-12 bg-gradient-to-b from-accent to-sand-600 rounded-full"></div>
-                    <span className="bg-gradient-to-r from-accent to-sand-600 bg-clip-text text-transparent">
-                      Creative Skills
-                    </span>
-                  </CardTitle>
-                  <CardDescription className="text-lg">
-                    Content creation and business development
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-3">
-                    {[
-                      "Content Creation",
-                      "Digital Media",
-                      "Social Impact",
-                      "Community Building",
-                      "Non-profit Management",
-                      "Coastal Tourism Promotion",
-                      "Photography",
-                      "Video Production",
-                      "Social Media Strategy",
-                    ].map((skill) => (
-                      <Badge
-                        key={skill}
-                        variant="secondary"
-                        className="bg-sand-50 text-sand-700 border border-sand-200 hover:bg-sand-100 transition-all duration-300 px-4 py-2 text-sm font-medium hover:scale-105"
-                      >
-                        {skill}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Technical Skills */}
+              <div className="lg:col-span-2">
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-background to-ocean-50/30 hover:shadow-xl transition-all duration-300 h-full">
+                  <CardHeader className="pb-6">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="p-2 rounded-lg bg-primary/10">
+                        <Building2 className="h-6 w-6 text-primary" />
+                      </div>
+                      <CardTitle className="text-2xl text-foreground">Technical Expertise</CardTitle>
+                    </div>
+                    <CardDescription className="text-base">
+                      Core development, automation, and enterprise solutions
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-6">
+
+                    {/* Maximo Skills */}
+                    <div>
+                      <h4 className="font-semibold text-primary mb-3 flex items-center gap-2">
+                        <div className="w-2 h-2 bg-primary rounded-full"></div>
+                        IBM Maximo & EAM
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {[
+                          "IBM Maximo 7.6",
+                          "MAS 8 (Manage)",
+                          "Automation Scripting",
+                          "Workflow Configuration",
+                          "BIRT Reporting",
+                          "MIF Integration"
+                        ].map((skill) => (
+                          <Badge
+                            key={skill}
+                            className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-all duration-200 hover:scale-105"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Development Skills */}
+                    <div>
+                      <h4 className="font-semibold text-ocean-600 mb-3 flex items-center gap-2">
+                        <div className="w-2 h-2 bg-ocean-600 rounded-full"></div>
+                        Development & Integration
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {[
+                          "Jython/JavaScript",
+                          "SQL Database",
+                          "REST APIs",
+                          "Application Designer",
+                          "UI Customization",
+                          "System Configuration"
+                        ].map((skill) => (
+                          <Badge
+                            key={skill}
+                            className="bg-ocean-100 text-ocean-700 border-ocean-200 hover:bg-ocean-150 transition-all duration-200 hover:scale-105"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Methodologies */}
+                    <div>
+                      <h4 className="font-semibold text-green-600 mb-3 flex items-center gap-2">
+                        <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+                        Methodologies & Tools
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {[
+                          "Agile Development",
+                          "DevOps Practices",
+                          "Git Version Control",
+                          "Performance Tuning",
+                          "Testing & QA",
+                          "Documentation"
+                        ].map((skill) => (
+                          <Badge
+                            key={skill}
+                            className="bg-green-100 text-green-700 border-green-200 hover:bg-green-150 transition-all duration-200 hover:scale-105"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              {/* Creative & Leadership Skills */}
+              <div className="space-y-6">
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-accent/10 to-accent/20 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardHeader className="pb-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="p-2 rounded-lg bg-accent/20">
+                        <Instagram className="h-5 w-5 text-accent-foreground" />
+                      </div>
+                      <CardTitle className="text-lg">Creative Skills</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "Content Creation",
+                        "Digital Media",
+                        "Photography",
+                        "Video Production",
+                        "Social Strategy"
+                      ].map((skill) => (
+                        <Badge
+                          key={skill}
+                          variant="secondary"
+                          className="bg-accent/20 text-accent-foreground border-accent/30 hover:bg-accent/30 text-xs"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-sand-100 to-sand-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardHeader className="pb-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="p-2 rounded-lg bg-sand-300">
+                        <GraduationCap className="h-5 w-5 text-sand-700" />
+                      </div>
+                      <CardTitle className="text-lg text-sand-800">Leadership</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "Team Collaboration",
+                        "Project Management",
+                        "Non-profit Founding",
+                        "Community Building",
+                        "Mentoring"
+                      ].map((skill) => (
+                        <Badge
+                          key={skill}
+                          variant="secondary"
+                          className="bg-sand-300 text-sand-800 border-sand-400 hover:bg-sand-400 text-xs"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-red-100 to-red-200 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                  <CardHeader className="pb-4">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="p-2 rounded-lg bg-red-300">
+                        <Trophy className="h-5 w-5 text-red-700" />
+                      </div>
+                      <CardTitle className="text-lg text-red-800">Impact</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "Social Impact",
+                        "Coastal Tourism",
+                        "Digital Advocacy",
+                        "Cultural Promotion"
+                      ].map((skill) => (
+                        <Badge
+                          key={skill}
+                          variant="secondary"
+                          className="bg-red-300 text-red-800 border-red-400 hover:bg-red-400 text-xs"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
