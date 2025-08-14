@@ -843,58 +843,33 @@ export default function Index() {
                 <CardContent className="space-y-4">
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Instana by IBM Technical Sales Intermediate
+                      Sales Intermediate Certification in IBM Maximo
                     </h4>
-                    <p className="text-muted-foreground">IBM • August 2024</p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Student Representative Certificate
+                      3 Months Training in Maximo MAS
                     </h4>
-                    <p className="text-muted-foreground">
-                      Coventry University • April 2023
-                    </p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Sandwich Artistry
+                      Microservices & Deployment using ASP.NET
                     </h4>
-                    <p className="text-muted-foreground">
-                      Subway EMEA • September 2022
-                    </p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Android Training and Certification
+                      Student Representative – Coventry University, UK
                     </h4>
-                    <p className="text-muted-foreground">
-                      Udemy Academy • September 2020
-                    </p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Developing ASP.NET MVC Web Applications
+                      ASP.NET MVC – Developing Web Applications
                     </h4>
-                    <p className="text-muted-foreground">
-                      Manipal Institute of Computer Education-MICE • October
-                      2019
-                    </p>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Skills: .NET Framework, Microsoft SQL Server, HTML,
-                      ASP.NET MVC, jQuery
-                    </p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-accent/10">
                     <h4 className="font-semibold text-lg text-accent">
-                      Introduction to Programming Using JavaScript
+                      JavaScript – Intro to Programming
                     </h4>
-                    <p className="text-muted-foreground">
-                      Manipal Institute of Computer Education-MICE • October
-                      2019
-                    </p>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Skills: JavaScript
-                    </p>
                   </div>
                 </CardContent>
               </Card>
