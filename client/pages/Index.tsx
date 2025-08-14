@@ -803,12 +803,12 @@ export default function Index() {
                 <CardContent className="space-y-6">
                   <div className="p-4 rounded-xl bg-background/50 border border-primary/10">
                     <h4 className="font-semibold text-xl text-primary">
-                      Master's in Cyber Security
+                      MSc in Cyber Security
                     </h4>
                     <p className="text-muted-foreground text-lg">
                       Coventry University, UK
                     </p>
-                    <p className="text-muted-foreground">2022 - 2024</p>
+                    <p className="text-muted-foreground">2023</p>
                   </div>
                   <div className="p-4 rounded-xl bg-background/50 border border-primary/10">
                     <h4 className="font-semibold text-xl text-primary">
