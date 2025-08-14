@@ -166,9 +166,16 @@ export default function Index() {
               </div>
 
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Skilled Maximo Consultant with <span className="font-semibold text-primary">5+ years</span> of 
-                experience in IBM Maximo and MAS 8 implementations. Proven expertise in automation scripting, 
+                Skilled Maximo Consultant with <span className="font-semibold text-primary">5+ years</span> of
+                experience in IBM Maximo and MAS 8 implementations. Proven expertise in automation scripting,
                 BIRT reporting, and enterprise asset management across multiple industry sectors.
+              </p>
+
+              <p className="text-base lg:text-lg text-muted-foreground/90 leading-relaxed max-w-2xl">
+                Beyond technology, I'm a passionate <span className="font-semibold text-accent">Digital Creator</span>,
+                <span className="font-semibold text-green-600">Philanthropist</span>, and <span className="font-semibold text-ocean-600">Founder</span>
+                of Coastal Vibes India - dedicated to empowering communities and creating meaningful social impact
+                through innovative digital platforms.
               </p>
 
               <div className="flex justify-center lg:justify-start">
@@ -232,6 +239,86 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Coastal Vibes Section */}
+      <section className="py-20 lg:py-32 bg-gradient-to-br from-accent/5 to-sand/10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-accent">Coastal Vibes India</h2>
+              <p className="text-xl text-accent/80 font-medium">"To You, From the Coast"</p>
+            </div>
+
+            <Card className="border-0 shadow-xl bg-gradient-to-br from-accent/10 to-sand/10">
+              <CardContent className="p-8 lg:p-12">
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="text-2xl font-bold text-accent mb-3">Our Vision</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      To bring the heartbeat of the coastal region to the world – through its vibrant culture,
+                      untold stories, local talents, and growing businesses.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-accent mb-3">Our Mission</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      To empower youth, entrepreneurs, and creatives by providing a platform that inspires,
+                      uplifts, and creates real impact in the community.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-accent mb-4">What We've Achieved</h3>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
+                            <span className="text-white font-bold text-sm">✓</span>
+                          </div>
+                          <span className="text-muted-foreground">Hosted <span className="font-semibold text-accent">125+ episodes</span> featuring changemakers</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
+                            <span className="text-white font-bold text-sm">✓</span>
+                          </div>
+                          <span className="text-muted-foreground">Supported startups through digital promotion</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
+                            <span className="text-white font-bold text-sm">✓</span>
+                          </div>
+                          <span className="text-muted-foreground">Events in <span className="font-semibold text-accent">India & UK</span></span>
+                        </div>
+                      </div>
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <Heart className="h-4 w-4 text-white" />
+                          </div>
+                          <span className="text-muted-foreground">Distributed <span className="font-semibold text-green-600">90+ ration kits</span> during COVID</span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <GraduationCap className="h-4 w-4 text-white" />
+                          </div>
+                          <span className="text-muted-foreground">Funded education for <span className="font-semibold text-green-600">20+ students</span></span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <ArrowRight className="h-4 w-4 text-white" />
+                          </div>
+                          <span className="text-muted-foreground">Continuing our impact journey</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 lg:py-32 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -261,40 +348,6 @@ export default function Index() {
                         part of the IBM Maximo Application Suite (MAS) project support team. I focus on secure,
                         scalable, and performance-driven EAM solutions.
                       </p>
-
-                      <div className="bg-gradient-to-r from-accent/10 to-sand/10 rounded-lg p-6 mb-6">
-                        <h4 className="text-xl font-bold text-accent mb-4">About Coastal Vibes – "To You, From the Coast"</h4>
-
-                        <div className="space-y-4">
-                          <div>
-                            <h5 className="font-semibold text-accent mb-2">Our Vision:</h5>
-                            <p className="text-sm">
-                              To bring the heartbeat of the coastal region to the world – through its vibrant culture,
-                              untold stories, local talents, and growing businesses.
-                            </p>
-                          </div>
-
-                          <div>
-                            <h5 className="font-semibold text-accent mb-2">Our Mission:</h5>
-                            <p className="text-sm">
-                              To empower youth, entrepreneurs, and creatives by providing a platform that inspires,
-                              uplifts, and creates real impact in the community.
-                            </p>
-                          </div>
-
-                          <div>
-                            <h5 className="font-semibold text-accent mb-2">What We've Done So Far:</h5>
-                            <ul className="text-sm space-y-1 list-disc list-inside">
-                              <li>Hosted 125+ episodes featuring changemakers from diverse backgrounds</li>
-                              <li>Supported startups and small businesses through digital promotion</li>
-                              <li>Organized talent contests, virtual concerts, and youth engagement events in India & the UK</li>
-                              <li>Led charity initiatives – including distributing 90+ ration kits during COVID</li>
-                              <li>Funded education for 20+ students and continuing</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
                       <p className="mb-6">
                         Always eager to learn, adapt, and collaborate on impactful solutions that blend technical
                         excellence with meaningful social impact.
