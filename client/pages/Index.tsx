@@ -185,127 +185,132 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-32 lg:py-40 overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-ocean-50/80 via-background to-sand-50/80"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(120,113,108,0.08),transparent_50%)] pointer-events-none"></div>
-        <div className="absolute top-20 left-20 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-72 h-72 bg-accent/5 rounded-full blur-3xl"></div>
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        {/* Modern Background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-background via-ocean-50/30 to-sand-50/30"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(var(--primary),0.05)_50%,transparent_75%)] animate-pulse"></div>
 
-        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center gap-20">
-            <div className="flex-1 text-center lg:text-left space-y-10">
-              <div className="space-y-8">
-                <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight leading-none">
-                  <span className="text-foreground">Aral Aldrin John</span>
-                  <br />
-                  <span className="bg-gradient-to-r from-primary via-ocean-600 to-accent bg-clip-text text-transparent">
-                    D'Souza
-                  </span>
-                </h1>
+        {/* Floating Elements */}
+        <div className="absolute top-20 left-20 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-20 right-20 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-float-delayed"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-ocean-200/20 rounded-full blur-3xl"></div>
 
-                <div className="max-w-5xl space-y-6">
-                  <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed text-justify">
-                    <span className="font-semibold text-foreground">Aral Aldrin John D'Souza</span>,
-                    <span className="text-primary font-medium">Maximo Developer</span>,
-                    <span className="text-ocean-600 font-medium">Technical Consultant</span>,
-                    <span className="text-green-600 font-medium">Founder</span>,
-                    <span className="text-accent font-medium">Digital Creator</span>,
-                    <span className="text-sand-600 font-medium">Anchor</span>, and
-                    <span className="text-red-600 font-medium">Philanthropist</span>,
-                    is a skilled Maximo Consultant with over 5 years of focused experience in IBM Maximo and MAS 8 implementations,
-                    support, and customizations. He has proven expertise in Maximo Integration Framework (MIF), automation scripting
-                    (Jython/JavaScript), data migration, and BIRT reporting, delivering solutions across multiple industry sectors
-                    while ensuring alignment with enterprise asset management (EAM) practices. With a strong technical-functional
-                    understanding of Maximo architecture and modules, Aral is always eager to learn, adapt, and collaborate on
-                    impactful solutions. <span className="text-primary font-semibold">Let's connect and grow together!</span>
-                    Reach out via <span className="text-primary font-medium">@cheerboyaral (Personal)</span>.
-                  </p>
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
-                  <div className="space-y-3 text-lg text-muted-foreground mt-8">
-                    <p className="font-semibold text-foreground text-xl">Other contacts:</p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pl-4">
-                      <p className="flex items-center">
-                        <span className="text-ocean-600 font-medium">@coastalvibes.in</span>
-                        <span className="mx-2">•</span>
-                        <span>Founder</span>
-                      </p>
-                      <p className="flex items-center">
-                        <span className="text-sand-600 font-medium">@upliftwitharal</span>
-                        <span className="mx-2">•</span>
-                        <span>Motivation</span>
-                      </p>
-                    </div>
-                  </div>
+            {/* Content */}
+            <div className="space-y-8 lg:space-y-10 text-center lg:text-left">
 
-                  <p className="text-lg text-muted-foreground leading-relaxed text-justify italic border-l-4 border-primary/30 pl-6 mt-8">
-                    Aral Aldrin John D'Souza is a <span className="text-accent font-medium">digital creator by passion</span>,
-                    <span className="text-sand-600 font-medium">anchor by interest</span>,
-                    <span className="text-red-600 font-medium">philanthropist by heart</span>, and
-                    <span className="text-green-600 font-medium">founder by commitment</span>,
-                    with a strong technical background and a drive to create meaningful impact.
-                  </p>
+              {/* Title */}
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <p className="text-primary font-medium text-lg tracking-wide uppercase">Portfolio</p>
+                  <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+                    <span className="text-foreground">Aral Aldrin</span>
+                    <br />
+                    <span className="bg-gradient-to-r from-primary via-ocean-600 to-accent bg-clip-text text-transparent">
+                      John D'Souza
+                    </span>
+                  </h1>
+                </div>
+
+                {/* Role Tags */}
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2">
+                  {[
+                    { text: "Maximo Developer", color: "bg-primary/10 text-primary border-primary/20" },
+                    { text: "Technical Consultant", color: "bg-ocean-100 text-ocean-700 border-ocean-200" },
+                    { text: "Digital Creator", color: "bg-accent/10 text-accent border-accent/20" },
+                    { text: "Founder", color: "bg-green-100 text-green-700 border-green-200" },
+                    { text: "Philanthropist", color: "bg-red-100 text-red-700 border-red-200" }
+                  ].map((role, index) => (
+                    <span
+                      key={index}
+                      className={`px-4 py-2 rounded-full text-sm font-medium border ${role.color} transition-transform hover:scale-105`}
+                    >
+                      {role.text}
+                    </span>
+                  ))}
                 </div>
               </div>
 
-              <div className="flex justify-center lg:justify-start">
+              {/* Description */}
+              <div className="space-y-6 max-w-3xl">
+                <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
+                  Skilled Maximo Consultant with over <span className="font-semibold text-primary">5 years</span> of
+                  focused experience in IBM Maximo and MAS 8 implementations, support, and customizations.
+                  Proven expertise in automation scripting, data migration, and BIRT reporting across
+                  multiple industry sectors.
+                </p>
+
+                <div className="bg-background/50 backdrop-blur border border-border/50 rounded-2xl p-6 space-y-4">
+                  <p className="font-semibold text-foreground">Connect with me:</p>
+                  <div className="space-y-2 text-sm">
+                    <p><span className="text-primary font-medium">@cheerboyaral</span> • Personal</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      <p><span className="text-ocean-600 font-medium">@coastalvibes.in</span> • Founder</p>
+                      <p><span className="text-sand-600 font-medium">@upliftwitharal</span> • Motivation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="#contact">
-                  <Button
-                    size="lg"
-                    className="group bg-primary hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4"
-                  >
-                    <Mail className="mr-3 h-6 w-6" />
-                    Contact Me
+                  <Button size="lg" className="group bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 text-base px-8 py-3">
+                    <Mail className="mr-2 h-5 w-5" />
+                    Get In Touch
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </a>
+                <a href="#about">
+                  <Button variant="outline" size="lg" className="border-2 hover:bg-primary/5 transition-all duration-300 text-base px-8 py-3">
+                    Learn More
                   </Button>
                 </a>
               </div>
 
-              <div className="space-y-4 flex flex-col items-center lg:items-start">
-                <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+              {/* Social Links */}
+              <div className="flex gap-4 justify-center lg:justify-start">
+                {[
+                  {
+                    href: "https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a",
+                    icon: Linkedin,
+                    color: "hover:text-blue-600 hover:bg-blue-50"
+                  },
+                  {
+                    href: "https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr",
+                    icon: Instagram,
+                    color: "hover:text-pink-600 hover:bg-pink-50"
+                  },
+                  {
+                    href: "https://www.instagram.com/coastalvibes.in",
+                    icon: Instagram,
+                    color: "hover:text-ocean-600 hover:bg-ocean-50"
+                  }
+                ].map((social, index) => (
                   <a
-                    href="https://www.linkedin.com/in/aral-aldrin-john-d-souza-bb901218a"
+                    key={index}
+                    href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300 group shadow-lg hover:shadow-xl"
+                    className={`p-3 rounded-full bg-background/80 border border-border hover:border-primary/50 transition-all duration-300 group shadow-sm hover:shadow-md ${social.color}`}
                   >
-                    <Linkedin className="h-7 w-7 text-muted-foreground group-hover:text-primary transition-colors" />
+                    <social.icon className="h-5 w-5 text-muted-foreground group-hover:scale-110 transition-transform" />
                   </a>
-                  <a
-                    href="https://www.instagram.com/cheerboyaral?igsh=aDQwa2VmbzY1dDBw&utm_source=qr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-accent/50 hover:bg-accent/5 transition-all duration-300 group shadow-lg hover:shadow-xl"
-                  >
-                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-accent transition-colors" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/coastalvibes.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-ocean-400 hover:bg-ocean-50 transition-all duration-300 group shadow-lg hover:shadow-xl"
-                  >
-                    <Instagram className="h-7 w-7 text-muted-foreground group-hover:text-ocean-600 transition-colors" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/upliftwitharal"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-4 rounded-full bg-background/80 border-2 border-border hover:border-sand-400 hover:bg-sand-50 transition-all duration-300 group shadow-lg hover:shadow-xl"
-                  >
-                    <ArrowRight className="h-7 w-7 text-muted-foreground group-hover:text-sand-600 transition-colors transform rotate-45" />
-                  </a>
-                </div>
+                ))}
               </div>
             </div>
 
-            <div className="flex-shrink-0">
-              <div className="relative w-96 h-96 lg:w-[28rem] lg:h-[28rem]">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/30 to-accent/30 blur-2xl animate-pulse"></div>
-                <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
+            {/* Image */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl transform rotate-6"></div>
+                <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border border-border/50 shadow-2xl">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fa92c07345b2448db8df3322125c3b3e6%2Fa8c817ab415e457099238678478bbeaf?format=webp&width=800"
                     alt="Aral Aldrin John D'Souza"
-                    className="w-full h-full object-cover scale-150"
+                    className="w-full h-full object-cover scale-150 hover:scale-155 transition-transform duration-700"
                     style={{ objectPosition: "center 20%" }}
                   />
                 </div>
