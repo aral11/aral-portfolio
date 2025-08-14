@@ -323,7 +323,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mt-12">
+            <div className="grid md:grid-cols-3 gap-6 mt-8">
               <Card className="group hover:shadow-xl transition-all duration-500 border-2 hover:border-primary/30 bg-gradient-to-br from-background to-primary/5">
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
